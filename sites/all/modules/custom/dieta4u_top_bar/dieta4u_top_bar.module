@@ -1,0 +1,27 @@
+<?php
+
+function dieta4u_top_bar_block_info(){
+  $blocks['contact_bar'] = array(
+    'info' => t('Contact Bar'),
+  );
+  return $blocks;
+}
+
+
+function dieta4u_top_bar_block_view($delta = ''){
+  switch ($delta){
+    case 'contact_bar':
+      $block['content'] = theme('top_bar');
+      break;
+  }
+
+  return $block;
+}
+
+function dieta4u_top_bar_theme() {
+  return array(
+    'top_bar' => array(
+      'template' => 'top_bar',
+        ),
+  );
+}
