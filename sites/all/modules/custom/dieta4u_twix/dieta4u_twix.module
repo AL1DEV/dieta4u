@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_entity_info_alter().
+ */
+function dieta4u_twix_entity_info_alter(&$entity_info) {
+  $entity_info['node']['view modes']['slider'] = array(
+    'label' => t('Slider'),
+    'custom settings' => TRUE,
+  );
+}

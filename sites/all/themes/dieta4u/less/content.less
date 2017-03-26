@@ -1,4 +1,23 @@
-// Insert your styling here.
+/* Carousel Control */
+.control-box {
+  text-align: right;
+  width: 100%;
+}
+.carousel-control{
+  background: #666;
+  border: 0px;
+  border-radius: 0px;
+  display: inline-block;
+  font-size: 34px;
+  font-weight: 200;
+  line-height: 18px;
+  opacity: 0.5;
+  padding: 4px 10px 0px;
+  position: static;
+  height: 30px;
+  width: 15px;
+}
+
 body{
 padding: 0;
 }
@@ -176,6 +195,17 @@ body.front.admin-menu .main-container.container{
   margin-top: 150px;
 }
 
-body.front .main-container.container{
-  margin-top: 122px;
+body.front{
+  .main-container.container{
+    margin-top: 122px;
+  }
+  article.node-product{
+    header{display: none}
+  }
+  .field-name-field-product-image .field-items .field-item {display: none;}
+  .field-name-field-product-image .field-items .field-item:first-of-type {display: block;}
+  .commerce-product-title-label,.commerce-product-status-label{display: none}
+  .commerce-add-to-cart{
+    .attribute-widgets{display: none}
+  }
 }

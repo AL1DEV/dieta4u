@@ -6,7 +6,9 @@
         },
 
         mainSlider: function () {
-
+            $('.view-id-top_products_slider .views-row').carousel({
+                interval: 6000
+            })
         }
 
     };
