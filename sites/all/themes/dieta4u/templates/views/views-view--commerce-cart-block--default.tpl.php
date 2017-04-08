@@ -77,6 +77,7 @@
 
   <?php global $base_url;?>
   <a href=<?php print $base_url.'/cart';?>>
+    <div class="separate"></div>
     <div class="headerCard">
       <i class="glyphicon glyphicon-shopping-cart"></i><span id="CartCount" class="hidden-count">Корзина  <?php print $footer; ?></span>
     </div>

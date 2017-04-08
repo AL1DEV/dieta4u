@@ -255,7 +255,7 @@ $databases['default']['default'] = array(
     );
 
 $conf['file_temporary_path'] = 'sites/default/files/tmp';
-$conf['theme_debug'] = TRUE;
+$conf['theme_debug'] = FALSE;
 
 /**
  * Access control for update.php script.

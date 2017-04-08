@@ -3,6 +3,11 @@
         attach: function (context, settings) {
             var self = this;
             self.mainSlider();
+            $('.form-item-quantity input').spinner({
+                min: 1,
+                max: 9999,
+                increment: 'fast'
+            });
         },
 
         mainSlider: function () {

@@ -3,7 +3,140 @@
   <component name="ChangeListManager">
     <list id="80f8ca5b-f162-451b-b319-05ebf4d0996b" name="Default" comment="" />
     <list default="true" id="3d2547b2-52ac-4f92-b10d-c16773dee4e8" name="commerce-fix access for rows w null in left join-1276450-167" comment="#2">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/image/icon/arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/image/icon/cart-count-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/image/icon/icon_cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/image/icon/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/image/icon/time.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/image/main_banner_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/image/main_right_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/image/main_right_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/jquery_ui_spinner/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/jquery_ui_spinner/example/example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/jquery_ui_spinner/ui.spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/jquery_ui_spinner/ui.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/jquery_ui_spinner/ui.spinner.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/-KT36ddml_M.jpg" afterPath="$PROJECT_DIR$/sites/default/files/-KT36ddml_M.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/0DQ0iiHFisk.jpg" afterPath="$PROJECT_DIR$/sites/default/files/0DQ0iiHFisk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/0VxAWBcs8kQ.jpg" afterPath="$PROJECT_DIR$/sites/default/files/0VxAWBcs8kQ.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/0lVYk2-qV9c.jpg" afterPath="$PROJECT_DIR$/sites/default/files/0lVYk2-qV9c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/3Y13IGO1U3w.jpg" afterPath="$PROJECT_DIR$/sites/default/files/3Y13IGO1U3w.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/3cklKKTp3I4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/3cklKKTp3I4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/89481dce-868d-4e6d-9a56-e72c7cd0db59.png" afterPath="$PROJECT_DIR$/sites/default/files/89481dce-868d-4e6d-9a56-e72c7cd0db59.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/8RQJIepfhq4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/8RQJIepfhq4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/CdPPxfkgHjQ (1).jpg" afterPath="$PROJECT_DIR$/sites/default/files/CdPPxfkgHjQ (1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/EK59BN_5fwc.jpg" afterPath="$PROJECT_DIR$/sites/default/files/EK59BN_5fwc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/F1taqQiisbM.jpg" afterPath="$PROJECT_DIR$/sites/default/files/F1taqQiisbM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/GNgRW_wWAV4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/GNgRW_wWAV4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/GmAAzmx0FPs.jpg" afterPath="$PROJECT_DIR$/sites/default/files/GmAAzmx0FPs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/IawRD01R26k.jpg" afterPath="$PROJECT_DIR$/sites/default/files/IawRD01R26k.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/Ij_RJP4903o.jpg" afterPath="$PROJECT_DIR$/sites/default/files/Ij_RJP4903o.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/KeHpXnyexq0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/KeHpXnyexq0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/Mc_iy4VrLPI.jpg" afterPath="$PROJECT_DIR$/sites/default/files/Mc_iy4VrLPI.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/RIHgbSMaqkM.jpg" afterPath="$PROJECT_DIR$/sites/default/files/RIHgbSMaqkM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/VMHKBRDewI4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/VMHKBRDewI4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/bkHAmniPaj8_0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/bkHAmniPaj8_0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/fM1YmN_4xeM.jpg" afterPath="$PROJECT_DIR$/sites/default/files/fM1YmN_4xeM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/gHfBiFXnklU.jpg" afterPath="$PROJECT_DIR$/sites/default/files/gHfBiFXnklU.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/h5slPxK9oe4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/h5slPxK9oe4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/kxgYl1Ttofc.jpg" afterPath="$PROJECT_DIR$/sites/default/files/kxgYl1Ttofc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/logo.png" afterPath="$PROJECT_DIR$/sites/default/files/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/pvSTZTnmB4I-(1).jpg" afterPath="$PROJECT_DIR$/sites/default/files/pvSTZTnmB4I-(1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/qbzvyvvl830.jpg" afterPath="$PROJECT_DIR$/sites/default/files/qbzvyvvl830.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/qbzvyvvl830_0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/qbzvyvvl830_0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/qbzvyvvl830_1.jpg" afterPath="$PROJECT_DIR$/sites/default/files/qbzvyvvl830_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/rI0xwYPvobo.jpg" afterPath="$PROJECT_DIR$/sites/default/files/rI0xwYPvobo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/-KT36ddml_M.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/-KT36ddml_M.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/0DQ0iiHFisk.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/0DQ0iiHFisk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/0VxAWBcs8kQ.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/0VxAWBcs8kQ.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/0lVYk2-qV9c.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/0lVYk2-qV9c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/3Y13IGO1U3w.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/3Y13IGO1U3w.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/3cklKKTp3I4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/3cklKKTp3I4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/8RQJIepfhq4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/8RQJIepfhq4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/CdPPxfkgHjQ (1).jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/CdPPxfkgHjQ (1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/EK59BN_5fwc.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/EK59BN_5fwc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/F1taqQiisbM.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/F1taqQiisbM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/GNgRW_wWAV4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/GNgRW_wWAV4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/GmAAzmx0FPs.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/GmAAzmx0FPs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/IawRD01R26k.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/IawRD01R26k.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/Ij_RJP4903o.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/Ij_RJP4903o.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/KeHpXnyexq0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/KeHpXnyexq0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/Mc_iy4VrLPI.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/Mc_iy4VrLPI.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/RIHgbSMaqkM.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/RIHgbSMaqkM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/VMHKBRDewI4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/VMHKBRDewI4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/bkHAmniPaj8_0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/bkHAmniPaj8_0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/fM1YmN_4xeM.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/fM1YmN_4xeM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/gHfBiFXnklU.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/gHfBiFXnklU.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/h5slPxK9oe4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/h5slPxK9oe4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/kxgYl1Ttofc.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/kxgYl1Ttofc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/pvSTZTnmB4I-(1).jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/pvSTZTnmB4I-(1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/qbzvyvvl830.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/qbzvyvvl830.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/qbzvyvvl830_0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/qbzvyvvl830_0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/qbzvyvvl830_1.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/qbzvyvvl830_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/rI0xwYPvobo.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/rI0xwYPvobo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/tsymt4eTKYA.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/tsymt4eTKYA.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/wbgPCDgXcQo.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/wbgPCDgXcQo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/yUHBVeksNh0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/medium/public/yUHBVeksNh0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/-KT36ddml_M.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/-KT36ddml_M.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/0DQ0iiHFisk.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/0DQ0iiHFisk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/0VxAWBcs8kQ.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/0VxAWBcs8kQ.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/0lVYk2-qV9c.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/0lVYk2-qV9c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/3Y13IGO1U3w.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/3Y13IGO1U3w.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/3cklKKTp3I4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/3cklKKTp3I4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/8RQJIepfhq4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/8RQJIepfhq4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/CdPPxfkgHjQ (1).jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/CdPPxfkgHjQ (1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/EK59BN_5fwc.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/EK59BN_5fwc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/F1taqQiisbM.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/F1taqQiisbM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/GNgRW_wWAV4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/GNgRW_wWAV4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/GmAAzmx0FPs.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/GmAAzmx0FPs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/IawRD01R26k.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/IawRD01R26k.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/Ij_RJP4903o.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/Ij_RJP4903o.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/KeHpXnyexq0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/KeHpXnyexq0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/Mc_iy4VrLPI.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/Mc_iy4VrLPI.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/RIHgbSMaqkM.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/RIHgbSMaqkM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/VMHKBRDewI4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/VMHKBRDewI4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/bkHAmniPaj8_0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/bkHAmniPaj8_0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/fM1YmN_4xeM.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/fM1YmN_4xeM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/gHfBiFXnklU.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/gHfBiFXnklU.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/h5slPxK9oe4.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/h5slPxK9oe4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/kxgYl1Ttofc.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/kxgYl1Ttofc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/pvSTZTnmB4I-(1).jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/pvSTZTnmB4I-(1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/qbzvyvvl830.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/qbzvyvvl830.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/qbzvyvvl830_0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/qbzvyvvl830_0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/qbzvyvvl830_1.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/qbzvyvvl830_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/rI0xwYPvobo.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/rI0xwYPvobo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/tsymt4eTKYA.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/tsymt4eTKYA.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/wbgPCDgXcQo.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/wbgPCDgXcQo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/yUHBVeksNh0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/yUHBVeksNh0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/tsymt4eTKYA.jpg" afterPath="$PROJECT_DIR$/sites/default/files/tsymt4eTKYA.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/wbgPCDgXcQo.jpg" afterPath="$PROJECT_DIR$/sites/default/files/wbgPCDgXcQo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/yUHBVeksNh0.jpg" afterPath="$PROJECT_DIR$/sites/default/files/yUHBVeksNh0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dieta4u.iml" afterPath="$PROJECT_DIR$/.idea/dieta4u.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_top_bar/top_bar.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_top_bar/top_bar.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/dieta4u/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view--commerce-cart-block--default.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view--commerce-cart-block--default.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/.htaccess" afterPath="$PROJECT_DIR$/sites/default/files/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.-wZfx7khxbGXh_C_wbS_EkA0xUMfQ6lspNumxZlIStk.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.-wZfx7khxbGXh_C_wbS_EkA0xUMfQ6lspNumxZlIStk.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.4bP9dpAI9iTxmt54Z4HXytf0SnV2ymJUy7z4nQg63Ws.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.4bP9dpAI9iTxmt54Z4HXytf0SnV2ymJUy7z4nQg63Ws.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.7Kq8apgTVxTsUwJ9VDi3GREIFh13q1cgO56Ry-NVCYU.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.7Kq8apgTVxTsUwJ9VDi3GREIFh13q1cgO56Ry-NVCYU.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.J6AzvjOWzYsnAliNbkkZWoKZtoW13nr5OM83ZOTKAAA.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.J6AzvjOWzYsnAliNbkkZWoKZtoW13nr5OM83ZOTKAAA.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.MQ72jWafBTGLwlfifKbx84WkMOcz-0itZU2AslLs-sk.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.MQ72jWafBTGLwlfifKbx84WkMOcz-0itZU2AslLs-sk.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.XwlhZCw3U2Ev2rT_XPkMGKUCn_W_l_anWqLHSo-zREw.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.XwlhZCw3U2Ev2rT_XPkMGKUCn_W_l_anWqLHSo-zREw.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style._Eiyh-dOsMQtK0ZnEJYQE4bdmEKHggCwkwfKVQmlKMo.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style._Eiyh-dOsMQtK0ZnEJYQE4bdmEKHggCwkwfKVQmlKMo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.a5MHb61nLaIkqlrhMk8iDDaNQQkDiZ9vDmPfc6yrDBY.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.a5MHb61nLaIkqlrhMk8iDDaNQQkDiZ9vDmPfc6yrDBY.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.itR5BW8oZUKtYDZdb-QkFveST21ayl42y3TitzLf4RE.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.itR5BW8oZUKtYDZdb-QkFveST21ayl42y3TitzLf4RE.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.kz-novBR-d_XI-EvvR65B4naEQDvk5diWYhtgfk2bWs.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.kz-novBR-d_XI-EvvR65B4naEQDvk5diWYhtgfk2bWs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.omL0XQMtKP1_RB5sRZrUEaVOsvdgYdBFFwEWO1N7QcI.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.omL0XQMtKP1_RB5sRZrUEaVOsvdgYdBFFwEWO1N7QcI.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.pV0KWiuWcDf1zbU-OeHNrp3ZX_TDhZe6eYyAksdAhmA.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.pV0KWiuWcDf1zbU-OeHNrp3ZX_TDhZe6eYyAksdAhmA.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.q6KnRG3M3wMcxdBLOY9ByZeSnEU_Fcv9TS9A-eBlhuQ.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.q6KnRG3M3wMcxdBLOY9ByZeSnEU_Fcv9TS9A-eBlhuQ.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/less/style.uhW4_AYca9HbgyPgV8orF91cozWd2VybxzUoxP53_nU.css" afterPath="$PROJECT_DIR$/sites/default/files/less/style.uhW4_AYca9HbgyPgV8orF91cozWd2VybxzUoxP53_nU.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/tmp/.htaccess" afterPath="$PROJECT_DIR$/sites/default/files/tmp/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
     </list>
     <ignored path="dieta4u.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,17 +150,49 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="DrupalConfiguration" enabled="true" version="7">
+    <drupalPath>$PROJECT_DIR$</drupalPath>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="dieta4u" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="114" column="33" lean-forward="false" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="content.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="206" column="62" lean-forward="false" selection-start-line="206" selection-start-column="62" selection-end-line="206" selection-end-column="62" />
+            <state relative-caret-position="1620">
+              <caret line="336" column="38" lean-forward="false" selection-start-line="336" selection-start-column="38" selection-end-line="336" selection-end-column="38" />
               <folding>
                 <element signature="e#36#75#0" expanded="false" />
                 <element signature="e#93#330#0" expanded="false" />
@@ -35,57 +200,72 @@
                 <element signature="e#359#379#0" expanded="false" />
                 <element signature="e#395#427#0" expanded="false" />
                 <element signature="e#408#425#0" expanded="false" />
-                <element signature="e#439#2026#0" expanded="false" />
-                <element signature="e#598#1098#0" expanded="false" />
-                <element signature="e#696#934#0" expanded="false" />
-                <element signature="e#942#1092#0" expanded="false" />
-                <element signature="e#1115#2024#0" expanded="false" />
-                <element signature="e#1201#1363#0" expanded="false" />
-                <element signature="e#1383#1685#0" expanded="false" />
-                <element signature="e#1719#2018#0" expanded="false" />
-                <element signature="e#1750#1802#0" expanded="false" />
-                <element signature="e#1834#1876#0" expanded="false" />
-                <element signature="e#1914#1958#0" expanded="false" />
-                <element signature="e#1970#2008#0" expanded="false" />
-                <element signature="e#2040#2085#0" expanded="false" />
-                <element signature="e#2101#2145#0" expanded="false" />
-                <element signature="e#2116#2143#0" expanded="false" />
-                <element signature="e#2157#2911#0" expanded="false" />
-                <element signature="e#2210#2909#0" expanded="false" />
-                <element signature="e#2279#2771#0" expanded="false" />
-                <element signature="e#2606#2642#0" expanded="false" />
-                <element signature="e#2658#2764#0" expanded="false" />
-                <element signature="e#2779#2905#0" expanded="false" />
-                <element signature="e#2930#3360#0" expanded="false" />
-                <element signature="e#3041#3067#0" expanded="false" />
-                <element signature="e#3073#3358#0" expanded="false" />
-                <element signature="e#3372#3418#0" expanded="false" />
-                <element signature="e#3436#3454#0" expanded="false" />
-                <element signature="e#3473#3574#0" expanded="false" />
-                <element signature="e#3508#3572#0" expanded="false" />
-                <element signature="e#3584#3800#0" expanded="false" />
-                <element signature="e#3914#3942#0" expanded="false" />
+                <element signature="e#439#1901#0" expanded="false" />
+                <element signature="e#620#1899#0" expanded="false" />
+                <element signature="e#755#917#0" expanded="false" />
+                <element signature="e#937#1049#0" expanded="false" />
+                <element signature="e#1284#1893#0" expanded="false" />
+                <element signature="e#1345#1428#0" expanded="false" />
+                <element signature="e#1464#1677#0" expanded="false" />
+                <element signature="e#1709#1751#0" expanded="false" />
+                <element signature="e#1789#1833#0" expanded="false" />
+                <element signature="e#1845#1883#0" expanded="false" />
+                <element signature="e#1915#1931#0" expanded="false" />
+                <element signature="e#1953#2597#0" expanded="false" />
+                <element signature="e#1964#1996#0" expanded="false" />
+                <element signature="e#2031#2265#0" expanded="false" />
+                <element signature="e#2152#2261#0" expanded="false" />
+                <element signature="e#2215#2255#0" expanded="false" />
+                <element signature="e#2284#2401#0" expanded="false" />
+                <element signature="e#2419#2449#0" expanded="false" />
+                <element signature="e#2457#2555#0" expanded="false" />
+                <element signature="e#2517#2551#0" expanded="false" />
+                <element signature="e#2563#2595#0" expanded="false" />
+                <element signature="e#2611#2687#0" expanded="false" />
+                <element signature="e#2860#3559#0" expanded="false" />
+                <element signature="e#2929#3421#0" expanded="false" />
+                <element signature="e#3256#3292#0" expanded="false" />
+                <element signature="e#3308#3414#0" expanded="false" />
+                <element signature="e#3429#3555#0" expanded="false" />
+                <element signature="e#3580#4010#0" expanded="false" />
+                <element signature="e#3691#3717#0" expanded="false" />
+                <element signature="e#3723#4008#0" expanded="false" />
+                <element signature="e#4022#4068#0" expanded="false" />
+                <element signature="e#4086#4475#0" expanded="false" />
+                <element signature="e#4892#4982#0" expanded="false" />
+                <element signature="e#4927#4980#0" expanded="false" />
+                <element signature="e#4992#5185#0" expanded="false" />
+                <element signature="e#6061#6085#0" expanded="false" />
+                <element signature="e#6097#6522#0" expanded="false" />
+                <element signature="e#6126#6154#0" expanded="false" />
+                <element signature="e#6177#6208#0" expanded="false" />
+                <element signature="e#6477#6520#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php">
+      <file leaf-file-name="field.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/field/theme/field.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2091">
-              <caret line="123" column="90" lean-forward="false" selection-start-line="121" selection-start-column="33" selection-end-line="123" selection-end-column="90" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--product--slider.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--product--slider.tpl.php">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="615">
+              <caret line="41" column="88" lean-forward="false" selection-start-line="41" selection-start-column="88" selection-end-line="41" selection-end-column="88" />
+              <folding>
+                <marker date="1491694046000" expanded="true" signature="116:436" ph="..." />
+                <marker date="1491694046000" expanded="true" signature="213:424" ph="..." />
+                <marker date="1491694046000" expanded="true" signature="252:417" ph="..." />
+                <marker date="1491694046000" expanded="true" signature="290:404" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,31 +273,29 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/bootstrap/templates/node.tpl.php">
+      <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.editorconfig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views-view-unformatted--top-products-slider--default.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view-unformatted--top-products-slider--default.tpl.php">
+      <file leaf-file-name="dieta4u_twix.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#7#113#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,8 +303,18 @@
       <file leaf-file-name="dieta4u.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top_bar.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_top_bar/top_bar.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -136,21 +324,47 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>text-overlay</find>
-      <find>header-top fixed-top</find>
-      <find>header-to</find>
-      <find>.header-nav</find>
-      <find>main-container</find>
+      <find>theme</find>
+      <find>block-commerce-cart-cart</find>
+      <find>glyphicon-time</find>
+      <find>@font-face {</find>
+      <find>headerOpenTime</find>
+      <find>logo</find>
+      <find>function dieta4u_commerce_cart_empty_block\(\)\{\n  return \'\&lt;div class\=\&quot;headerCard\&quot;\&gt;\n     \&lt;i class\=\&quot;glyphicon glyphicon\-shopping\-cart\&quot;\&gt;\&lt;\/i\&gt;\&lt;span id\=\&quot;CartCount\&quot; class\=\&quot;hidden\-count\&quot;\&gt;Корзина \&lt;div class\=\&quot;line\-item\-summary\&quot;\&gt;\n    \&lt;div class\=\&quot;line\-item\-quantity\&quot;\&gt;\n    \&lt;span class\=\&quot;line\-item\-quantity\-raw\&quot;\&gt;1\&lt;\/span\&gt; \&lt;span class\=\&quot;line\-item\-quantity\-label\&quot;\&gt;item\&lt;\/span\&gt;\n  \&lt;\/div\&gt;\n      \&lt;\/div\&gt;\&lt;\/span\&gt;\n     \&lt;\/div\&gt;\'\;\n\}</find>
+      <find>background: #eb3f29;</find>
+      <find>headerTelephone</find>
       <find>.header-top</find>
-      <find>62</find>
-      <find>Link products added to the cart from this display to the current path the customer is viewing where the View is rendered.</find>
-      <find>commerce_product_reference_commerce_product_uri</find>
-      <find>myCarousel</find>
+      <find>header-top</find>
+      <find>.header-nav</find>
+      <find>header-n</find>
+      <find>main-container.container</find>
+      <find>bg-2</find>
+      <find>col-md-9</find>
+      <find>slider-container</find>
+      <find>text-overlay</find>
+      <find>.slider-container</find>
+      <find>.bg-image</find>
+      <find>headerCard</find>
+      <find>header-nav</find>
+      <find>row-fluid</find>
+      <find>jquery.ui.spinner</find>
+      <find>view-top-products-slider</find>
+      <find>asd</find>
+      <find>asdasdsd</find>
+      <find>commerce-product-title</find>
+      <find>img</find>
+      <find>section</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
     <dirStrings>
       <dir>E:\OpenServer\domains\dieta4u.com.ua\sites\all\themes</dir>
       <dir>E:\OpenServer\domains\dieta4u.com.ua\sites\all\themes\bootstrap</dir>
       <dir>E:\OpenServer\domains\dieta4u.com.ua</dir>
+      <dir>$PROJECT_DIR$/sites/all/themes/dieta4u</dir>
+      <dir>$PROJECT_DIR$/sites/all/themes/dieta4u/templates</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="FindManager">
@@ -166,18 +380,24 @@
       <list>
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/dieta4u.info" />
         <option value="$PROJECT_DIR$/sites/all/modules/commerce/commerce.module" />
-        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.info" />
-        <option value="$PROJECT_DIR$/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--view--top-products-slider.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node--products.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/template.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view-unformatted--top-products-slider--default.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--product--slider.tpl.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_top_bar/top_bar.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view--commerce-cart-block--default.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field--commerce-product-field-field-product-form.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field--field-name-field-product-form.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field--field-product-form.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/template.php" />
       </list>
     </option>
   </component>
@@ -189,10 +409,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-88" />
-    <option name="y" value="322" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -213,7 +432,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,12 +441,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dieta4u.com.ua" />
+              <option name="myItemId" value="dieta4u" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +460,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -249,14 +468,41 @@
       <recent name="E:\OpenServer\domains\dieta4u.com.ua\sites\all\themes\dieta4u\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\OpenServer\domains\dieta4u.com.ua\sites\all\modules\custom\dieta4u_twix" />
-      <recent name="E:\OpenServer\domains\dieta4u.com.ua\sites\default" />
-      <recent name="$PROJECT_DIR$/sites/all/libraries/jquery.cycle" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/dieta4u/image/icon" />
+      <recent name="$PROJECT_DIR$/sites/all/libraries/jquery_ui_spinner" />
       <recent name="$PROJECT_DIR$/sites/all/themes/dieta4u/image" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/dieta4u/templates" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/dieta4u/fonts/roboto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.templates">
+    <configuration default="false" name="templates" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/sites/all/themes/dieta4u/templates" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -313,6 +559,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.templates" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.templates" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -348,23 +602,38 @@
       <workItem from="1490535528064" duration="13257000" />
       <workItem from="1490783051177" duration="792000" />
       <workItem from="1491047583415" duration="3000" />
+      <workItem from="1491642697729" duration="405000" />
+      <workItem from="1491647888291" duration="3338000" />
+      <workItem from="1491677511398" duration="13593000" />
+      <workItem from="1491694839480" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15914000" />
+    <option name="totallyTimeSpent" value="33266000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-88" y="322" width="1936" height="1056" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="829" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23081024" sideWeight="0.67164177" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31831187" sideWeight="0.67164177" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.118046135" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -372,11 +641,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32700136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -438,187 +705,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view-unformatted--top-products-slider--default.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#113#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="206" column="62" lean-forward="false" selection-start-line="206" selection-start-column="62" selection-end-line="206" selection-end-column="62" />
-          <folding>
-            <element signature="e#36#75#0" expanded="false" />
-            <element signature="e#93#330#0" expanded="false" />
-            <element signature="e#336#351#0" expanded="false" />
-            <element signature="e#359#379#0" expanded="false" />
-            <element signature="e#395#427#0" expanded="false" />
-            <element signature="e#408#425#0" expanded="false" />
-            <element signature="e#439#2026#0" expanded="false" />
-            <element signature="e#598#1098#0" expanded="false" />
-            <element signature="e#696#934#0" expanded="false" />
-            <element signature="e#942#1092#0" expanded="false" />
-            <element signature="e#1115#2024#0" expanded="false" />
-            <element signature="e#1201#1363#0" expanded="false" />
-            <element signature="e#1383#1685#0" expanded="false" />
-            <element signature="e#1719#2018#0" expanded="false" />
-            <element signature="e#1750#1802#0" expanded="false" />
-            <element signature="e#1834#1876#0" expanded="false" />
-            <element signature="e#1914#1958#0" expanded="false" />
-            <element signature="e#1970#2008#0" expanded="false" />
-            <element signature="e#2040#2085#0" expanded="false" />
-            <element signature="e#2101#2145#0" expanded="false" />
-            <element signature="e#2116#2143#0" expanded="false" />
-            <element signature="e#2157#2911#0" expanded="false" />
-            <element signature="e#2210#2909#0" expanded="false" />
-            <element signature="e#2279#2771#0" expanded="false" />
-            <element signature="e#2606#2642#0" expanded="false" />
-            <element signature="e#2658#2764#0" expanded="false" />
-            <element signature="e#2779#2905#0" expanded="false" />
-            <element signature="e#2930#3360#0" expanded="false" />
-            <element signature="e#3041#3067#0" expanded="false" />
-            <element signature="e#3073#3358#0" expanded="false" />
-            <element signature="e#3372#3418#0" expanded="false" />
-            <element signature="e#3436#3454#0" expanded="false" />
-            <element signature="e#3473#3574#0" expanded="false" />
-            <element signature="e#3508#3572#0" expanded="false" />
-            <element signature="e#3584#3800#0" expanded="false" />
-            <element signature="e#3914#3942#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="90" lean-forward="true" selection-start-line="121" selection-start-column="33" selection-end-line="123" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--product--slider.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bootstrap/templates/node.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view-unformatted--top-products-slider--default.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#113#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="155" column="13" lean-forward="false" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
-          <folding>
-            <element signature="e#36#75#0" expanded="false" />
-            <element signature="e#93#330#0" expanded="false" />
-            <element signature="e#336#351#0" expanded="false" />
-            <element signature="e#359#379#0" expanded="false" />
-            <element signature="e#395#427#0" expanded="false" />
-            <element signature="e#408#425#0" expanded="false" />
-            <element signature="e#439#2026#0" expanded="false" />
-            <element signature="e#598#1098#0" expanded="false" />
-            <element signature="e#696#934#0" expanded="false" />
-            <element signature="e#942#1092#0" expanded="false" />
-            <element signature="e#1115#2024#0" expanded="false" />
-            <element signature="e#1201#1363#0" expanded="false" />
-            <element signature="e#1383#1685#0" expanded="false" />
-            <element signature="e#1719#2018#0" expanded="false" />
-            <element signature="e#1750#1802#0" expanded="false" />
-            <element signature="e#1834#1876#0" expanded="false" />
-            <element signature="e#1914#1958#0" expanded="false" />
-            <element signature="e#1970#2008#0" expanded="false" />
-            <element signature="e#2040#2085#0" expanded="false" />
-            <element signature="e#2101#2145#0" expanded="false" />
-            <element signature="e#2116#2143#0" expanded="false" />
-            <element signature="e#2157#2911#0" expanded="false" />
-            <element signature="e#2210#2909#0" expanded="false" />
-            <element signature="e#2279#2771#0" expanded="false" />
-            <element signature="e#2606#2642#0" expanded="false" />
-            <element signature="e#2658#2764#0" expanded="false" />
-            <element signature="e#2779#2905#0" expanded="false" />
-            <element signature="e#2930#3360#0" expanded="false" />
-            <element signature="e#3041#3067#0" expanded="false" />
-            <element signature="e#3073#3358#0" expanded="false" />
-            <element signature="e#3372#3418#0" expanded="false" />
-            <element signature="e#3436#3454#0" expanded="false" />
-            <element signature="e#3473#3574#0" expanded="false" />
-            <element signature="e#3508#3572#0" expanded="false" />
-            <element signature="e#3584#3800#0" expanded="false" />
-            <element signature="e#3914#3942#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="59" lean-forward="true" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/dieta4u.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -644,36 +730,46 @@
             <element signature="e#359#379#0" expanded="false" />
             <element signature="e#395#427#0" expanded="false" />
             <element signature="e#408#425#0" expanded="false" />
-            <element signature="e#439#2026#0" expanded="false" />
-            <element signature="e#598#1098#0" expanded="false" />
-            <element signature="e#696#934#0" expanded="false" />
-            <element signature="e#942#1092#0" expanded="false" />
-            <element signature="e#1115#2024#0" expanded="false" />
-            <element signature="e#1201#1363#0" expanded="false" />
-            <element signature="e#1383#1685#0" expanded="false" />
-            <element signature="e#1719#2018#0" expanded="false" />
-            <element signature="e#1750#1802#0" expanded="false" />
-            <element signature="e#1834#1876#0" expanded="false" />
-            <element signature="e#1914#1958#0" expanded="false" />
-            <element signature="e#1970#2008#0" expanded="false" />
-            <element signature="e#2040#2085#0" expanded="false" />
-            <element signature="e#2101#2145#0" expanded="false" />
-            <element signature="e#2116#2143#0" expanded="false" />
-            <element signature="e#2157#2911#0" expanded="false" />
-            <element signature="e#2210#2909#0" expanded="false" />
-            <element signature="e#2279#2771#0" expanded="false" />
-            <element signature="e#2606#2642#0" expanded="false" />
-            <element signature="e#2658#2764#0" expanded="false" />
-            <element signature="e#2779#2905#0" expanded="false" />
-            <element signature="e#2930#3360#0" expanded="false" />
-            <element signature="e#3041#3067#0" expanded="false" />
-            <element signature="e#3073#3358#0" expanded="false" />
-            <element signature="e#3372#3418#0" expanded="false" />
-            <element signature="e#3436#3454#0" expanded="false" />
-            <element signature="e#3473#3574#0" expanded="false" />
-            <element signature="e#3508#3572#0" expanded="false" />
-            <element signature="e#3584#3800#0" expanded="false" />
-            <element signature="e#3914#3942#0" expanded="false" />
+            <element signature="e#439#1901#0" expanded="false" />
+            <element signature="e#620#1899#0" expanded="false" />
+            <element signature="e#755#917#0" expanded="false" />
+            <element signature="e#937#1049#0" expanded="false" />
+            <element signature="e#1284#1893#0" expanded="false" />
+            <element signature="e#1345#1428#0" expanded="false" />
+            <element signature="e#1464#1677#0" expanded="false" />
+            <element signature="e#1709#1751#0" expanded="false" />
+            <element signature="e#1789#1833#0" expanded="false" />
+            <element signature="e#1845#1883#0" expanded="false" />
+            <element signature="e#1915#1931#0" expanded="false" />
+            <element signature="e#1953#2597#0" expanded="false" />
+            <element signature="e#1964#1996#0" expanded="false" />
+            <element signature="e#2031#2265#0" expanded="false" />
+            <element signature="e#2152#2261#0" expanded="false" />
+            <element signature="e#2215#2255#0" expanded="false" />
+            <element signature="e#2284#2401#0" expanded="false" />
+            <element signature="e#2419#2449#0" expanded="false" />
+            <element signature="e#2457#2555#0" expanded="false" />
+            <element signature="e#2517#2551#0" expanded="false" />
+            <element signature="e#2563#2595#0" expanded="false" />
+            <element signature="e#2611#2687#0" expanded="false" />
+            <element signature="e#2860#3559#0" expanded="false" />
+            <element signature="e#2929#3421#0" expanded="false" />
+            <element signature="e#3256#3292#0" expanded="false" />
+            <element signature="e#3308#3414#0" expanded="false" />
+            <element signature="e#3429#3555#0" expanded="false" />
+            <element signature="e#3580#4010#0" expanded="false" />
+            <element signature="e#3691#3717#0" expanded="false" />
+            <element signature="e#3723#4008#0" expanded="false" />
+            <element signature="e#4022#4068#0" expanded="false" />
+            <element signature="e#4086#4475#0" expanded="false" />
+            <element signature="e#4892#4982#0" expanded="false" />
+            <element signature="e#4927#4980#0" expanded="false" />
+            <element signature="e#4992#5185#0" expanded="false" />
+            <element signature="e#6061#6085#0" expanded="false" />
+            <element signature="e#6097#6522#0" expanded="false" />
+            <element signature="e#6126#6154#0" expanded="false" />
+            <element signature="e#6177#6208#0" expanded="false" />
+            <element signature="e#6477#6520#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -704,36 +800,46 @@
             <element signature="e#359#379#0" expanded="false" />
             <element signature="e#395#427#0" expanded="false" />
             <element signature="e#408#425#0" expanded="false" />
-            <element signature="e#439#2026#0" expanded="false" />
-            <element signature="e#598#1098#0" expanded="false" />
-            <element signature="e#696#934#0" expanded="false" />
-            <element signature="e#942#1092#0" expanded="false" />
-            <element signature="e#1115#2024#0" expanded="false" />
-            <element signature="e#1201#1363#0" expanded="false" />
-            <element signature="e#1383#1685#0" expanded="false" />
-            <element signature="e#1719#2018#0" expanded="false" />
-            <element signature="e#1750#1802#0" expanded="false" />
-            <element signature="e#1834#1876#0" expanded="false" />
-            <element signature="e#1914#1958#0" expanded="false" />
-            <element signature="e#1970#2008#0" expanded="false" />
-            <element signature="e#2040#2085#0" expanded="false" />
-            <element signature="e#2101#2145#0" expanded="false" />
-            <element signature="e#2116#2143#0" expanded="false" />
-            <element signature="e#2157#2911#0" expanded="false" />
-            <element signature="e#2210#2909#0" expanded="false" />
-            <element signature="e#2279#2771#0" expanded="false" />
-            <element signature="e#2606#2642#0" expanded="false" />
-            <element signature="e#2658#2764#0" expanded="false" />
-            <element signature="e#2779#2905#0" expanded="false" />
-            <element signature="e#2930#3360#0" expanded="false" />
-            <element signature="e#3041#3067#0" expanded="false" />
-            <element signature="e#3073#3358#0" expanded="false" />
-            <element signature="e#3372#3418#0" expanded="false" />
-            <element signature="e#3436#3454#0" expanded="false" />
-            <element signature="e#3473#3574#0" expanded="false" />
-            <element signature="e#3508#3572#0" expanded="false" />
-            <element signature="e#3584#3800#0" expanded="false" />
-            <element signature="e#3914#3942#0" expanded="false" />
+            <element signature="e#439#1901#0" expanded="false" />
+            <element signature="e#620#1899#0" expanded="false" />
+            <element signature="e#755#917#0" expanded="false" />
+            <element signature="e#937#1049#0" expanded="false" />
+            <element signature="e#1284#1893#0" expanded="false" />
+            <element signature="e#1345#1428#0" expanded="false" />
+            <element signature="e#1464#1677#0" expanded="false" />
+            <element signature="e#1709#1751#0" expanded="false" />
+            <element signature="e#1789#1833#0" expanded="false" />
+            <element signature="e#1845#1883#0" expanded="false" />
+            <element signature="e#1915#1931#0" expanded="false" />
+            <element signature="e#1953#2597#0" expanded="false" />
+            <element signature="e#1964#1996#0" expanded="false" />
+            <element signature="e#2031#2265#0" expanded="false" />
+            <element signature="e#2152#2261#0" expanded="false" />
+            <element signature="e#2215#2255#0" expanded="false" />
+            <element signature="e#2284#2401#0" expanded="false" />
+            <element signature="e#2419#2449#0" expanded="false" />
+            <element signature="e#2457#2555#0" expanded="false" />
+            <element signature="e#2517#2551#0" expanded="false" />
+            <element signature="e#2563#2595#0" expanded="false" />
+            <element signature="e#2611#2687#0" expanded="false" />
+            <element signature="e#2860#3559#0" expanded="false" />
+            <element signature="e#2929#3421#0" expanded="false" />
+            <element signature="e#3256#3292#0" expanded="false" />
+            <element signature="e#3308#3414#0" expanded="false" />
+            <element signature="e#3429#3555#0" expanded="false" />
+            <element signature="e#3580#4010#0" expanded="false" />
+            <element signature="e#3691#3717#0" expanded="false" />
+            <element signature="e#3723#4008#0" expanded="false" />
+            <element signature="e#4022#4068#0" expanded="false" />
+            <element signature="e#4086#4475#0" expanded="false" />
+            <element signature="e#4892#4982#0" expanded="false" />
+            <element signature="e#4927#4980#0" expanded="false" />
+            <element signature="e#4992#5185#0" expanded="false" />
+            <element signature="e#6061#6085#0" expanded="false" />
+            <element signature="e#6097#6522#0" expanded="false" />
+            <element signature="e#6126#6154#0" expanded="false" />
+            <element signature="e#6177#6208#0" expanded="false" />
+            <element signature="e#6477#6520#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,27 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_top_bar/top_bar.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view--commerce-cart-block--default.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="90" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -828,20 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/patch/commerce-fix_access_for_rows_w_null_in_left_join-1276450-167.patch" />
     <entry file="file://$PROJECT_DIR$/sites/all/modules/commerce/commerce.module">
       <provider selected="true" editor-type-id="text-editor">
@@ -878,25 +949,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node..tpl.php" />
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bootstrap/templates/node.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="330">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--product--slider.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="257" column="28" lean-forward="false" selection-start-line="257" selection-start-column="28" selection-end-line="257" selection-end-column="28" />
+        <state relative-caret-position="155">
+          <caret line="253" column="21" lean-forward="true" selection-start-line="253" selection-start-column="21" selection-end-line="253" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node..tpl.php" />
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3944">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/overrides.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2903">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/fonts/roboto/LICENSE.txt" />
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/image/icon/icon_cart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/image/main_banner_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view--commerce-cart-block--default.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view-unformatted--top-products-slider--default.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/jquery_ui_spinner/example/example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="33" lean-forward="false" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/commerce_price_decimals_formatter/commerce_price_decimals_formatter.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3457">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/commerce/includes/commerce.currency.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1180" column="30" lean-forward="false" selection-start-line="1180" selection-start-column="30" selection-end-line="1180" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/field/theme/field.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="206" column="62" lean-forward="false" selection-start-line="206" selection-start-column="62" selection-end-line="206" selection-end-column="62" />
+        <state relative-caret-position="1620">
+          <caret line="336" column="38" lean-forward="false" selection-start-line="336" selection-start-column="38" selection-end-line="336" selection-end-column="38" />
           <folding>
             <element signature="e#36#75#0" expanded="false" />
             <element signature="e#93#330#0" expanded="false" />
@@ -904,93 +1103,92 @@
             <element signature="e#359#379#0" expanded="false" />
             <element signature="e#395#427#0" expanded="false" />
             <element signature="e#408#425#0" expanded="false" />
-            <element signature="e#439#2026#0" expanded="false" />
-            <element signature="e#598#1098#0" expanded="false" />
-            <element signature="e#696#934#0" expanded="false" />
-            <element signature="e#942#1092#0" expanded="false" />
-            <element signature="e#1115#2024#0" expanded="false" />
-            <element signature="e#1201#1363#0" expanded="false" />
-            <element signature="e#1383#1685#0" expanded="false" />
-            <element signature="e#1719#2018#0" expanded="false" />
-            <element signature="e#1750#1802#0" expanded="false" />
-            <element signature="e#1834#1876#0" expanded="false" />
-            <element signature="e#1914#1958#0" expanded="false" />
-            <element signature="e#1970#2008#0" expanded="false" />
-            <element signature="e#2040#2085#0" expanded="false" />
-            <element signature="e#2101#2145#0" expanded="false" />
-            <element signature="e#2116#2143#0" expanded="false" />
-            <element signature="e#2157#2911#0" expanded="false" />
-            <element signature="e#2210#2909#0" expanded="false" />
-            <element signature="e#2279#2771#0" expanded="false" />
-            <element signature="e#2606#2642#0" expanded="false" />
-            <element signature="e#2658#2764#0" expanded="false" />
-            <element signature="e#2779#2905#0" expanded="false" />
-            <element signature="e#2930#3360#0" expanded="false" />
-            <element signature="e#3041#3067#0" expanded="false" />
-            <element signature="e#3073#3358#0" expanded="false" />
-            <element signature="e#3372#3418#0" expanded="false" />
-            <element signature="e#3436#3454#0" expanded="false" />
-            <element signature="e#3473#3574#0" expanded="false" />
-            <element signature="e#3508#3572#0" expanded="false" />
-            <element signature="e#3584#3800#0" expanded="false" />
-            <element signature="e#3914#3942#0" expanded="false" />
+            <element signature="e#439#1901#0" expanded="false" />
+            <element signature="e#620#1899#0" expanded="false" />
+            <element signature="e#755#917#0" expanded="false" />
+            <element signature="e#937#1049#0" expanded="false" />
+            <element signature="e#1284#1893#0" expanded="false" />
+            <element signature="e#1345#1428#0" expanded="false" />
+            <element signature="e#1464#1677#0" expanded="false" />
+            <element signature="e#1709#1751#0" expanded="false" />
+            <element signature="e#1789#1833#0" expanded="false" />
+            <element signature="e#1845#1883#0" expanded="false" />
+            <element signature="e#1915#1931#0" expanded="false" />
+            <element signature="e#1953#2597#0" expanded="false" />
+            <element signature="e#1964#1996#0" expanded="false" />
+            <element signature="e#2031#2265#0" expanded="false" />
+            <element signature="e#2152#2261#0" expanded="false" />
+            <element signature="e#2215#2255#0" expanded="false" />
+            <element signature="e#2284#2401#0" expanded="false" />
+            <element signature="e#2419#2449#0" expanded="false" />
+            <element signature="e#2457#2555#0" expanded="false" />
+            <element signature="e#2517#2551#0" expanded="false" />
+            <element signature="e#2563#2595#0" expanded="false" />
+            <element signature="e#2611#2687#0" expanded="false" />
+            <element signature="e#2860#3559#0" expanded="false" />
+            <element signature="e#2929#3421#0" expanded="false" />
+            <element signature="e#3256#3292#0" expanded="false" />
+            <element signature="e#3308#3414#0" expanded="false" />
+            <element signature="e#3429#3555#0" expanded="false" />
+            <element signature="e#3580#4010#0" expanded="false" />
+            <element signature="e#3691#3717#0" expanded="false" />
+            <element signature="e#3723#4008#0" expanded="false" />
+            <element signature="e#4022#4068#0" expanded="false" />
+            <element signature="e#4086#4475#0" expanded="false" />
+            <element signature="e#4892#4982#0" expanded="false" />
+            <element signature="e#4927#4980#0" expanded="false" />
+            <element signature="e#4992#5185#0" expanded="false" />
+            <element signature="e#6061#6085#0" expanded="false" />
+            <element signature="e#6097#6522#0" expanded="false" />
+            <element signature="e#6126#6154#0" expanded="false" />
+            <element signature="e#6177#6208#0" expanded="false" />
+            <element signature="e#6477#6520#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field--field-product-form.tpl.php" />
     <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="88" lean-forward="false" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="90" lean-forward="false" selection-start-line="121" selection-start-column="33" selection-end-line="123" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view-unformatted--top-products-slider--default.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="615">
+          <caret line="41" column="88" lean-forward="false" selection-start-line="41" selection-start-column="88" selection-end-line="41" selection-end-column="88" />
           <folding>
-            <element signature="e#7#113#0#PHP" expanded="true" />
+            <marker date="1491694046000" expanded="true" signature="116:436" ph="..." />
+            <marker date="1491694046000" expanded="true" signature="213:424" ph="..." />
+            <marker date="1491694046000" expanded="true" signature="252:417" ph="..." />
+            <marker date="1491694046000" expanded="true" signature="290:404" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bootstrap/templates/node.tpl.php">
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--product--slider.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_top_bar/top_bar.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

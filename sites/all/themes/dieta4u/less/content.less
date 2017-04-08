@@ -37,32 +37,13 @@ body.admin-menu{
     width:100%;
     color: #fff;
     background-color: #333;
-    height: 52px;
-    .topbarLeft{
-      padding-top: 5px;
-      padding-bottom: 3px;
-      .headerOpenTime,
-      .headerTelephone{
-        margin-right: 15px;
-        padding: 10px 0;
-        display: inline-block;
-        vertical-align: middle;
-        line-height: 22px;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-      i{
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 5px;
-        font-size: 16px;
-        margin-top: -2px;
-      }
-    }
+    height: 70px;
+    padding: 12px 0;
     .topbarRight{
-      padding-top: 5px;
+      line-height: 44px;
+      padding-top: 0;
       padding-bottom: 3px;
+      padding-right: 0px;
       text-align: right;
        i{
           display: inline-block;
@@ -72,19 +53,31 @@ body.admin-menu{
           margin-top: -2px;
         }
         .headerCard{
-            margin-right: 15px;
-            padding: 10px 0;
             display: inline-block;
             vertical-align: middle;
             line-height: 0px;
-            padding-top: 16px;
-            font-size: 12px;
-            font-weight: 700;
-            text-transform: uppercase;
         }
+      .separate{
+        float: left;
+        height: 38px;
+        margin-top: 4px;
+        padding-right: 40px;
+        font-size: 0;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+      }
         #block-commerce-cart-cart{
+          padding-left: 35px;
            .line-item-summary{
-              display: inline-block;
+             display: inline-block;
+             padding-left: 5px;
+            }
+            .line-item-quantity-raw{
+              border-radius: 20px;
+              background: #eb3f29;
+              display: block;
+              line-height: 23px;
+              min-width: 24px;
+              text-align: center;
             }
             .line-item-quantity{
               float: none;
@@ -98,18 +91,60 @@ body.admin-menu{
         }
     }
 }
+.navbar .logo{
+  margin: 0;
+}
+.region-top-bar-right{
+  section{
+    display: inline-block;
+  }
+  .headerOpenTime,.headerTelephone{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    a{
+      color:white;
+      text-decoration: none;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+  .headerCard span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.8px;
+  }
+  .headerOpenTime{
+    padding-right: 35px;
+  }
+  .icon{
+    display: inline-block;
+    padding-right: 6px;
+    img{
+      padding-bottom: 3px;
+    }
+  }
+  .text{
+    display: inline-block;
+  }
+}
 .navbar-inner{
 border: none;
 box-shadow: none!important;
+  background: white!important;
 }
 body.admin-menu{
   .header-nav{
-    margin-top: 52px;
+    margin-top: 70px;
   }
 }
 .header-nav{
-   margin-top: 52px;
+   margin-top: 70px;
    padding:15px 0;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   .menu.nav{
      margin: auto;
      float: none;
@@ -171,24 +206,100 @@ input{
     padding-right: 0;
 }
 .slider-container{
-height: 700px;
+height: 600px;
+  a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.9px;
+    padding-right: 31px;
+    &:hover{
+      text-decoration: none;
+    }
+    background: url("/sites/all/themes/dieta4u/image/icon/arrow-right.png") right center no-repeat;
+  }
+}
+.bannesliderright{
+  position: relative;
+  .text-overlay{
+      padding-bottom: 3px;
+      position: absolute;
+      bottom: 40px;
+      left: 33px;
+      color: #333333;
+      text-decoration: none;
+      border-bottom: 2px solid #333333;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.9px;
+    }
 }
 .slideshow-wrapper{
 position: relative;
 .text-overlay{
 position: absolute;
-bottom: 20px;
-right: 20px;
-color: black;
+  bottom: 58px;
+  left: 60px;
 }
 }
 .bg-image{
     height: 100%;
-    background-image: url('/sites/all/themes/dieta4u/image/bg-2.jpg');
+    background-image: url('/sites/all/themes/dieta4u/image/main_banner_1.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-size: cover;
-    background-position: -30px;
+}
+.glyphicon-shopping-cart{
+  background: url("/sites/all/themes/dieta4u/image/icon/icon_cart.png") no-repeat;
+  width: 24px;
+  height: 20px;
+  margin-right: 8px!important;
+  margin-top: -4px!important;
+  &::before{
+    display: none;
+  }
+}
+
+.ui-icon{
+  width: 12px;
+  height: 7px;
+}
+
+.ui-widget-content{
+  border: none;
+}
+.ui-icon-triangle-1-s{
+  background-position: -65px -16px;
+}
+
+.ui-icon, .ui-widget-content .ui-icon{
+  background-image: url("/sites/all/themes/dieta4u/image/icon/cart-count-icon.png");
+  background-repeat: no-repeat;
+}
+
+.ui-icon-triangle-1-n{
+  background-position: -12px 0px;
+  &:hover{
+    background-position: 0px 0px;
+  }
+}
+
+.ui-icon-triangle-1-s{
+  background-position: -12px -8px;
+  &:hover{
+    background-position: 0px -8px;
+  }
+}
+
+.ui-spinner-up span,
+.ui-spinner-down span{
+  cursor: pointer;
 }
 
 body.front.admin-menu .main-container.container{
@@ -197,7 +308,7 @@ body.front.admin-menu .main-container.container{
 
 body.front{
   .main-container.container{
-    margin-top: 122px;
+    margin-top: 143px;
   }
   article.node-product{
     header{display: none}
@@ -207,5 +318,67 @@ body.front{
   .commerce-product-title-label,.commerce-product-status-label{display: none}
   .commerce-add-to-cart{
     .attribute-widgets{display: none}
+  }
+}
+
+.view-top-products-slider{
+  .products{
+    &:nth-child(4n){
+        padding-right: 0;
+    }
+    &:nth-child(1n){
+      padding-left: 0;
+    }
+    .node-product{
+      border: 1px solid gray;
+      a{
+        //display: block;
+      }
+      .field-name-field-product-image img{
+        width: 100%;
+      }
+    }
+    .detail{
+      padding: 10px 15px;
+    }
+    input[name=quantity]{
+      width: 56px;
+      height: 41px;
+      border-radius: 2px;
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      box-shadow: none;
+      text-align: center;
+      float: left;
+      margin-right: 9px;
+    }
+    .control-label{
+      display: none;
+    }
+    .ui-spinner-button{
+      display: block;
+      margin-top: 9px;
+    }
+    .form-item-quantity{
+      .controls{
+        float: left;
+        width: 80px;
+      }
+    }
+    .commerce-product-title{
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      line-height: 24px;
+    }
+    .field-name-commerce-price{
+      .field-item{
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color:#666666;
+      }
+    }
   }
 }
