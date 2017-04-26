@@ -42,21 +42,21 @@
                 <div class="slider-container">
                     <div class="bg-image"></div>
                     <div class="text-overlay">
-                        <a href="#" class="mega-subtitle">Перейти в каталог</a>
+                        <a href="catalog" class="mega-subtitle">Перейти в каталог</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 no-padding">
             <div class="bannesliderright">
-                <a href="#">
+                <a href="catalog/bilayt-90-klubnika">
                     <img class="img-reponsive" alt="" src="/sites/all/themes/dieta4u/image/main_right_1.jpg">
                     <div class="text-overlay">Подробнее</div>
                 </a>
 
             </div>
             <div class="bannesliderright">
-                <a href="#">
+                <a href="catalog/bilayt-96-zoloto">
                     <img class="img-reponsive" alt="" src="/sites/all/themes/dieta4u/image/main_right_2.jpg">
                     <div class="text-overlay">Подробнее</div>
                 </a>
@@ -64,16 +64,7 @@
         </div>
     </div>
 
-    <header role="banner" id="page-header">
-      <?php if (!empty($site_slogan)): ?>
-          <p class="lead"><?php print $site_slogan; ?></p>
-      <?php endif; ?>
-
-      <?php print render($page['header']); ?>
-    </header> <!-- /#header -->
-
     <div class="row">
-
       <?php if (!empty($page['sidebar_first'])): ?>
           <aside class="span3" role="complementary">
             <?php print render($page['sidebar_first']); ?>
@@ -109,9 +100,53 @@
             <?php print render($page['sidebar_second']); ?>
           </aside>  <!-- /#sidebar-second -->
       <?php endif; ?>
-
+    </div>
+    <div class="row delivery-container no-gutters">
+        <div class="col-md-6">
+            <div class="wrapper">
+                <h2>Оплата и доставка</h2>
+                <p>Доставка товаров осуществляется компанией Новая Почта.  Вы можете оплатить товар наложенным платежем во всех отделениях Новой Почты, а также расчитаться наличными при доставке курьером.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-container">
+                        <a href="">
+                            <img src="/sites/all/themes/dieta4u/image/delivery_1.jpg" alt="">
+                            <span>Самовывоз из отделения <nobr>новой почты</nobr></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-container">
+                        <a href="">
+                            <img src="/sites/all/themes/dieta4u/image/delivery_2.jpg" alt="">
+                            <span>Адресная доставка <br/>курьером <nobr>новой почты</nobr></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="wrapper right">
+                <h2 class="with-bottom-margin">Контакты</h2>
+                <div>
+                    <span class="shedule">Режим работы:</span>
+                    <p>Пн - Пт: 10:00 - 20:30</p>
+                </div>
+                <div>
+                    <span class="telephone">Контактный телефон</span>
+                    <a href="tel:=380683983698">+380(68)398-36-98</a>
+                </div>
+                <div>
+                    <span class="email">Email</span>
+                    <a href="mailto:dieta4u@gmail.com">dieta4u@gmail.com</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<footer class="footer container">
-  <?php print render($page['footer']); ?>
+<footer class="footer">
+    <div class="container">
+        <?php print render($page['footer']); ?>
+    </div>
 </footer>

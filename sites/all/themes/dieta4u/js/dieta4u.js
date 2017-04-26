@@ -3,6 +3,9 @@
         attach: function (context, settings) {
             var self = this;
             self.mainSlider();
+            self.fancybox();
+            self.filter();
+            // if (typeof spinner !== 'undefined' && $.isFunction(spinner))
             $('.form-item-quantity input').spinner({
                 min: 1,
                 max: 9999,
@@ -11,9 +14,29 @@
         },
 
         mainSlider: function () {
+            // if (typeof carousel !== 'undefined' && $.isFunction(carousel))
             $('.view-id-top_products_slider .views-row').carousel({
                 interval: 6000
             })
+        },
+
+
+        fancybox: function () {
+            if (typeof fancybox === 'function')
+            $("[data-fancybox]").fancybox({
+                image : {
+                    protect: true
+                }
+            });
+        },
+
+
+        filter: function () {
+            $('#views-exposed-form-catalog-page select').change(function () {
+                $('#views-exposed-form-catalog-page .form-submit').click();
+            });
+
+            $('select').niceSelect();
         }
 
     };

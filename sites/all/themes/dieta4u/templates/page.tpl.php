@@ -1,43 +1,38 @@
 <header id="navbar" role="banner" class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="header-top">
-      <div class="container">
-        <div class="row">
-          <div class="topbarLeft col-xs-12 col-sm-6">
-            <?php if (!empty($page['top_bar_left'])): ?>
-              <?php print render($page['top_bar_left']); ?>
-            <?php endif; ?>
-          </div>
-          <div class="topbarRight col-xs-12 col-sm-6">
-            <?php if (!empty($page['top_bar_right'])): ?>
-              <?php print render($page['top_bar_right']); ?>
-            <?php endif; ?>
-          </div>
+    <div class="navbar-inner">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="topbarLeft col-md-3 col-xs-12 col-sm-6">
+                        <?php if (!empty($logo)): ?>
+                            <a class="logo pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+                                <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                            </a>
+                        <?php endif; ?>
+                        <?php if (!empty($page['top_bar_left'])): ?>
+                            <?php print render($page['top_bar_left']); ?>
+                        <?php endif; ?>
+                    </div>
+                    <div class="topbarRight col-md-9 col-xs-12 col-sm-6">
+                        <?php if (!empty($page['top_bar_right'])): ?>
+                            <?php print render($page['top_bar_right']); ?>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="header-nav">
-      <div class="container">
-        <div class="row-fluid">
-          <div class="col-md-3">
-            <?php if (!empty($logo)): ?>
-            <a class="logo pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-            </a>
-            <?php endif; ?>
-          </div>
-          <div class="col-md-6">
-            <?php if (!empty($page['menu'])): ?>
-              <?php print render($page['menu']); ?>
-            <?php endif; ?>
-          </div>
-          <div class="col-md-3">
-            <?php $block = module_invoke('search', 'block_view', 'search'); print render($block); ?>
-          </div>
+        <div class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <?php if (!empty($page['menu'])): ?>
+                            <?php print render($page['menu']); ?>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </header>
 
 <div class="main-container container">
@@ -50,7 +45,7 @@
     <?php print render($page['header']); ?>
   </header> <!-- /#header -->
 
-  <div class="row-fluid">
+  <div class="row-fluid wrapper">
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="span3" role="complementary">
@@ -66,7 +61,9 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
+          <?php if(isset($node->type) && $node->type !== 'product'):?>
+              <h1 class="page-header"><?php print $title; ?></h1>
+          <?php endif; ?>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
@@ -90,6 +87,8 @@
 
   </div>
 </div>
-<footer class="footer container">
-  <?php print render($page['footer']); ?>
+<footer class="footer">
+    <div class="container">
+        <?php print render($page['footer']); ?>
+    </div>
 </footer>

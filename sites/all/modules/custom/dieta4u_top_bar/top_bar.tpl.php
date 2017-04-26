@@ -10,5 +10,5 @@
     <div class="icon">
         <img src="/sites/all/themes/dieta4u/image/icon/phone.png" alt="">
     </div>
-    <a href="tel:+380683983698"> +380(68)398-36-98 </a>
+    <a href="tel:+380952126841"> +380(95)212-68-41 </a>
 </div>

@@ -10,3 +10,22 @@ function dieta4u_twix_entity_info_alter(&$entity_info) {
   );
 }
 
+function dieta4u_twix_form_alter(&$form, &$form_state, $form_id){
+
+    if(strpos($form_id, 'commerce_cart_add_to_cart_form') !== false){
+        drupal_add_js('sites/all/libraries/fancybox/dist/jquery.fancybox.js');
+        drupal_add_css('sites/all/libraries/fancybox/dist/jquery.fancybox.css');
+
+        $form['#attached']['css'] = array(
+            libraries_get_path('nice-select') . '/css/nice-select.css',
+        );
+        $form['#attached']['js'] = array(
+            libraries_get_path('nice-select') . '/js/jquery.nice-select.js',
+        );
+
+        if($form['submit']['#value'] !== 'Product not available'){
+            $form['submit']['#value'] = t('Заказать');
+        }
+    }
+
+}
