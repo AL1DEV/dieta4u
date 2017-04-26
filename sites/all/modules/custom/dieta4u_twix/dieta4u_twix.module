@@ -16,16 +16,23 @@ function dieta4u_twix_form_alter(&$form, &$form_state, $form_id){
         drupal_add_js('sites/all/libraries/fancybox/dist/jquery.fancybox.js');
         drupal_add_css('sites/all/libraries/fancybox/dist/jquery.fancybox.css');
 
-        $form['#attached']['css'] = array(
-            libraries_get_path('nice-select') . '/css/nice-select.css',
-        );
-        $form['#attached']['js'] = array(
-            libraries_get_path('nice-select') . '/js/jquery.nice-select.js',
-        );
-
         if($form['submit']['#value'] !== 'Product not available'){
             $form['submit']['#value'] = t('Заказать');
         }
+    }
+
+    $form['#attached']['css'] = array(
+        libraries_get_path('nice-select') . '/css/nice-select.css',
+    );
+    $form['#attached']['js'] = array(
+        libraries_get_path('nice-select') . '/js/jquery.nice-select.js',
+    );
+
+    if($form_id == 'views_exposed_form'){
+        if (isset($form['title'])) {
+            $form['title']['#attributes'] = array('placeholder' => array('Поиск по каталогу'));
+        }
+        $form['submit']['#value'] = '';
     }
 
 }

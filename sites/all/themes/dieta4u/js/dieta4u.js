@@ -5,7 +5,7 @@
             self.mainSlider();
             self.fancybox();
             self.filter();
-            // if (typeof spinner !== 'undefined' && $.isFunction(spinner))
+            if (typeof spinner === 'function')
             $('.form-item-quantity input').spinner({
                 min: 1,
                 max: 9999,
@@ -14,7 +14,7 @@
         },
 
         mainSlider: function () {
-            // if (typeof carousel !== 'undefined' && $.isFunction(carousel))
+            if (typeof carousel === 'function')
             $('.view-id-top_products_slider .views-row').carousel({
                 interval: 6000
             })

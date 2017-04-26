@@ -135,7 +135,7 @@
                 </div>
                 <div>
                     <span class="telephone">Контактный телефон</span>
-                    <a href="tel:=380683983698">+380(68)398-36-98</a>
+                    <a href="tel:=380952126841">+380(95)212-68-41</a>
                 </div>
                 <div>
                     <span class="email">Email</span>

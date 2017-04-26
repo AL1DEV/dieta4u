@@ -44,7 +44,7 @@
                 <?php print $items_per_page; ?>
             </div>
         <?php endif; ?>
-          <div class="col-md-4 col-md-offset-4">
+          <div class="col-md-3 col-md-offset-5 widget-wrapper">
         <?php foreach ($widgets as $id => $widget): ?>
             <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
                 <?php if (!empty($widget->label)): ?>

@@ -114,7 +114,7 @@ body.admin-menu{
             }
             .line-item-quantity-raw{
               border-radius: 20px;
-              background: #eb3f29;
+              background: #eb6453;
               display: block;
               line-height: 23px;
               min-width: 24px;
@@ -202,11 +202,11 @@ body.admin-menu{
         -webkit-transition: all 350ms ease-out;
         transition: all 350ms ease-out;
         &.active{
-         color: #ff7473;
+         color: #eb6453;
         }
         &:hover{
           background-color: transparent;
-          color: #ff7473;
+          color: #eb6453;
           box-shadow: none;
         }
      }
@@ -355,6 +355,7 @@ position: absolute;
 
 body.front.admin-menu .main-container.container{
   margin-top: 170px;
+  padding-top: 0;
 }
 
 body.front{
@@ -374,7 +375,7 @@ body.front{
 
 .view-top-products-slider,
 .view-catalog{
-  margin-top: 60px;
+  margin-top: 20px;
   .row{
     margin-bottom: 30px;
   }
@@ -816,10 +817,10 @@ body.node-type-product{
 
 body.page-catalog{
   .main-container.container{
-    margin-top: 170px;
+    margin-top: 117px;
   }
   &.admin-menu{
-    .main-container.container{margin-top: 200px};
+    .main-container.container{margin-top: 145px};
   }
 
   .node-product{
@@ -827,8 +828,14 @@ body.page-catalog{
       display: none;
     }
   }
+  .view-filters form{
+    margin-bottom: 0;
+  }
   .commerce-product-title-label,.commerce-product-status-label{display: none}
   .views-exposed-form{
+    .row{
+      margin-bottom: 10px;
+    }
     .form-item-sort-by{
       display: -webkit-flex;
       display: flex;
@@ -874,6 +881,51 @@ body.page-catalog{
           &.selected{
             font-weight: 400;
           }
+        }
+      }
+    }
+    .widget-wrapper{
+      label{
+        display: none;
+      }
+      position: relative;
+      .views-widget-filter-title{
+        float: none;
+        width: 100%;
+        input{
+          width: 100%;
+
+          -webkit-tap-highlight-color: transparent;
+          background-color: #fff;
+          border: solid 1px #e8e8e8;
+          box-sizing: border-box;
+          clear: both;
+          cursor: pointer;
+          display: block;
+          float: left;
+          font-family: 'Roboto';
+          font-weight: 300;
+          font-size: 14px;
+          height: 42px;
+          line-height: 40px;
+          outline: none;
+          padding-left: 18px;
+          padding-right: 30px;
+          position: relative;
+          text-align: left;
+          border-radius: 2px;
+        }
+      }
+      .views-submit-button{
+        position: absolute;
+        right: 0;
+        top:0;
+        button{
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+          width: 42px;
+          height: 42px;
+          background: #eb6453 url("/sites/all/themes/dieta4u/image/icon/search-icon.png") no-repeat center center;
         }
       }
     }
@@ -1019,5 +1071,23 @@ table{
     tbody{border-color: #e6e6e6;}
     td,th{padding: 15px 40px;border-color: #e6e6e6;}
     tr{border-color: #e6e6e6;}
+  }
+}
+
+#block-easy-breadcrumb-easy-breadcrumb{
+  .easy-breadcrumb{
+    a,span{
+      color: #999999;
+      font-family: 'Roboto';
+      font-size: 16px;
+      font-weight: 300;
+      &:hover{
+        text-decoration: none;
+        color: #999999;
+      }
+    }
+    .easy-breadcrumb_segment-separator{
+      padding: 0 19px;
+    }
   }
 }
