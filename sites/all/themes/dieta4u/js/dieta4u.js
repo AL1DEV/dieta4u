@@ -5,12 +5,12 @@
             self.mainSlider();
             self.fancybox();
             self.filter();
-            if (typeof spinner === 'function')
-            $('.form-item-quantity input').spinner({
-                min: 1,
-                max: 9999,
-                increment: 'fast'
-            });
+
+                $('.form-item-quantity input').spinner({
+                    min: 1,
+                    max: 9999,
+                    increment: 'fast'
+                });
         },
 
         mainSlider: function () {

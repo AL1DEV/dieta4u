@@ -19,6 +19,9 @@ function dieta4u_twix_form_alter(&$form, &$form_state, $form_id){
         if($form['submit']['#value'] !== 'Product not available'){
             $form['submit']['#value'] = t('Заказать');
         }
+        if($form['submit']['#value'] == 'Product not available'){
+            $form['submit']['#value'] = t('Нет в наличии');
+        }
     }
 
     $form['#attached']['css'] = array(

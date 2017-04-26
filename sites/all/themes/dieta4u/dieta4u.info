@@ -16,6 +16,7 @@ regions[footer]         = 'Footer'
 stylesheets[all][] = less/style.less
 
 ; Scripts
+scripts[] = js/jquery-ui.js
 scripts[] = js/dieta4u.js
 
 ;**********************************
