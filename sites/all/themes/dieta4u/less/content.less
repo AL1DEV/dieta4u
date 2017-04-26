@@ -372,22 +372,6 @@ body.front{
   }
 }
 
-body.page-catalog{
-  .commerce-product-title-label,.commerce-product-status-label{display: none}
-  .views-exposed-form{
-    .views-widget-filter-title{
-      label{display: none;}
-    }
-    .views-widget-sort-by{
-      label{display: inline-block;color:#333333;font-size: 14px;font-weight: bold; font-family: 'Roboto';text-transform: uppercase}
-      .controls{display: inline-block}
-    }
-    .form-submit{
-      margin-top: 0;
-    }
-  }
-}
-
 .view-top-products-slider,
 .view-catalog{
   margin-top: 60px;
@@ -843,6 +827,58 @@ body.page-catalog{
       display: none;
     }
   }
+  .commerce-product-title-label,.commerce-product-status-label{display: none}
+  .views-exposed-form{
+    .form-item-sort-by{
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      -webkit-justify-content: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .views-widget-filter-title{
+      label{display: none;}
+    }
+    .views-widget-sort-by{
+      label{color:#333333;font-size: 14px;font-weight: bold; font-family: 'Roboto';text-transform: uppercase;padding-right: 20px}
+      .controls{}
+    }
+    .form-submit{
+      margin-top: 0;
+    }
+    .controls{
+      div.nice-select{
+        width: 235px;
+        border-radius: 2px;
+        span{
+          font-family: 'Roboto';
+          font-size: 16px;
+          font-weight: 300;
+        }
+        &::after{
+          width: 7px;
+          height: 7px;
+          border-color:#333333;
+        }
+      }
+      ul{
+        width: 100%;
+        margin-left: 0;
+        border-radius: 2px;
+        li{
+          font-family: 'Roboto';
+          font-size: 16px;
+          font-weight: 300;
+          &.selected{
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 .page-node-19{
@@ -865,8 +901,7 @@ table{
   margin: 0 auto;
   overflow: hidden;
   float: none;
-  border-color: #e6e6e6;
-  border:none;
+  border: none;
   tbody{border-color: #e6e6e6;}
   td{padding: 15px 40px;border-color: #e6e6e6;}
   tr{border-color: #e6e6e6;}
@@ -877,7 +912,6 @@ table{
     a{
       display: inline-block;
       padding: 10px 15px;
-
       border: 2px solid #eb3f29;
       border-radius: 2px;
       background-color: transparent;
@@ -898,5 +932,92 @@ table{
 
 }
 .page-node-20{
-
+  .main-container{
+    background-color:white;
+  }
+  h1{
+    font-family: 'Roboto';
+    text-align: center;
+    color: #333333;
+    font-size: 36px;
+    border-bottom: none;
+  }
+.node-webform{
+  header{
+    display: none;
+  }
+  form{
+    max-width: 500px;
+    margin: 0 auto;
+    input,textarea{
+      width: 100%;
+      border-color: #e6e6e6;
+      border-radius: 2px;
+      font-family: 'Roboto';
+      font-size: 14px;
+      font-weight: 300;
+      color: #333333;
+      padding: 18px;
+    }
+    input{
+      height: 48px;
+    }
+    button{
+      display: block;
+      margin: 15px auto;
+      margin-top: 35px;
+      padding: 10px 15px;
+      border: 2px solid #eb3f29;
+      border-radius: 2px;
+      background-color: transparent;
+      color: #eb3f29;
+      width: 200px;
+      height: 40px;
+      font-family: 'Roboto';
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+}
+}
+.page-node-21{
+  h1{
+    margin: 140px auto;
+    font-family: 'Roboto';
+    text-align: center;
+    color: #333333;
+    font-size: 28px;
+    font-weight: 300;
+    border-bottom: none;
+  }
+}
+.page-node-22{
+  .main-container{
+    background-color:white;
+  }
+  h1{
+    font-family: 'Roboto';
+    text-align: center;
+    color: #333333;
+    font-size: 36px;
+    border-bottom: none;
+  }
+  table{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #333333;
+    margin: 0 auto;
+    overflow: hidden;
+    float: none;
+    border-color: #e6e6e6;
+    border:none;
+    tbody{border-color: #e6e6e6;}
+    td,th{padding: 15px 40px;border-color: #e6e6e6;}
+    tr{border-color: #e6e6e6;}
+  }
 }
