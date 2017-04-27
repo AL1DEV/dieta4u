@@ -332,6 +332,8 @@ position: absolute;
 .ui-icon, .ui-widget-content .ui-icon{
   background-image: url("/sites/all/themes/dieta4u/image/icon/cart-count-icon.png");
   background-repeat: no-repeat;
+  overflow: auto;
+  display: block;
 }
 
 .ui-icon-triangle-1-n{
@@ -990,6 +992,13 @@ table{
     }
   }
 
+}
+body.node-type-webform,
+body.node-type-page{
+  .easy-breadcrumb{
+    margin-left: 25px;
+    padding: 25px 0;
+  }
 }
 .page-node-20{
   .main-container{

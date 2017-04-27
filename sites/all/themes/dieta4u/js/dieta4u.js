@@ -6,7 +6,7 @@
             self.fancybox();
             self.filter();
 
-                $('.form-item-quantity input').spinner({
+                $('.form-item-quantity input, .commerce-line-item-views-form .views-field-edit-quantity input').spinner({
                     min: 1,
                     max: 9999,
                     increment: 'fast'
