@@ -5,11 +5,15 @@
             self.mainSlider();
             self.fancybox();
             self.filter();
+            self.ajaxCart();
 
                 $('.form-item-quantity input, .commerce-line-item-views-form .views-field-edit-quantity input').spinner({
                     min: 1,
                     max: 9999,
-                    increment: 'fast'
+                    increment: 'fast',
+                    stop:function(event,ui){
+                        $(this).change();
+                    }
                 });
         },
 
@@ -37,6 +41,16 @@
             });
 
             $('select').niceSelect();
+        },
+
+
+        ajaxCart: function () {
+            $('#dc-cart-ajax-form-wrapper .views-field-edit-quantity input').change(function () {
+                var $button = $('.commerce-line-item-actions .form-submit.ajax-processed');
+                var $value = $(this).val();
+
+                if($value && $value > 1) $button.mousedown();
+            })
         }
 
     };

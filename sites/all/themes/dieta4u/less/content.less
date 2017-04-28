@@ -332,7 +332,6 @@ position: absolute;
 .ui-icon, .ui-widget-content .ui-icon{
   background-image: url("/sites/all/themes/dieta4u/image/icon/cart-count-icon.png");
   background-repeat: no-repeat;
-  overflow: auto;
   display: block;
 }
 
@@ -1105,6 +1104,153 @@ body.node-type-page{
     }
     .easy-breadcrumb_segment-separator{
       padding: 0 19px;
+    }
+  }
+}
+
+// Cart style
+.page-cart{
+  h1{
+    font-family: 'Roboto';
+    text-align: center;
+    color: #333333;
+    font-size: 36px;
+    border-bottom: none;
+  }
+  .view-commerce-cart-form{
+    table{
+      font-family: 'Roboto';
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      color: #333333;
+      border-bottom: 2px solid #999999;
+      margin-bottom: 0px;
+      thead{
+        border-bottom: 1px solid #333333;
+      }
+      th{
+        text-transform: uppercase;
+        color:#999999;
+        font-size: 12px;
+        font-weight: 400;
+        border: none;
+        padding: 12px 8px;
+      }
+      td{vertical-align: middle;padding: 20px 8px;}
+      .views-field-field-product-image,
+      .views-field-line-item-title{
+        display: inline-block;
+      }
+
+      .views-field-line-item-title{
+        a{
+          padding-left: 20px;
+          color: #666666;
+          font-family: 'Roboto';
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 24px;
+          &:hover{
+            color: #666666;
+            text-decoration: none;
+          }
+        }
+      }
+      td.views-field-commerce-unit-price,
+      td.views-field-commerce-total{
+        font-weight: 500;
+        color: #666666;
+        font-family: 'Roboto';
+        font-size: 17px;
+        line-height: 24px;
+
+      }
+      .delete-line-item.btn.form-submit{
+        width: 28px;
+        height: 28px;
+        transition: background-image 150ms ease-in-out;
+        background: url('/sites/all/themes/dieta4u/image/icon/icon_delete.png') no-repeat center center;
+        &:hover{
+          background: url('/sites/all/themes/dieta4u/image/icon/icon_delete_active.png') no-repeat center center;
+        }
+      }
+    }
+    .line-item-summary{
+      text-align: left;
+      display: inline-block;
+      width: 49%;
+      .line-item-total-label{
+        font-family: 'Roboto';
+        color: #666666;
+        font-size: 24px;
+        font-weight: 100;
+      }
+      .line-item-total-raw{
+        font-family: 'Roboto';
+        color: #666666;
+        font-size: 21px;
+        font-weight: 400;
+      }
+    }
+    .commerce-line-item-actions{
+      width: 50%;
+      display: inline-block;
+      border: none;
+    }
+    .form-actions.commerce-line-item-actions{
+      .btn.btn-info.form-submit{
+        outline: none !important;
+        border: 2px solid #137b42;
+        border-radius: 2px;
+        background-color: transparent;
+        color: #137b42;
+        width: 180px;
+        height: 51px;
+        margin-right: 25px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .btn.form-submit{
+        outline: none !important;
+        border: 2px solid #eb3f29;
+        border-radius: 2px;
+        background-color: transparent;
+        color: #eb3f29;
+        width: 180px;
+        height: 51px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+    .views-field-edit-quantity{
+      .controls{
+        float: left;
+        width: 80px;
+      }
+      input{
+        width: 56px;
+        height: 41px;
+        border-radius: 2px;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+        text-align: center;
+        float: left;
+        margin-right: 9px;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .ui-spinner-button{
+        display: block;
+        margin-top: 9px;
+      }
     }
   }
 }

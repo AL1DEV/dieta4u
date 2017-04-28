@@ -31,6 +31,16 @@ function dieta4u_twix_form_alter(&$form, &$form_state, $form_id){
         $form['submit']['#value'] = '';
     }
 
+    if($form_id == 'views_form_commerce_cart_form_default'){
+       if(isset($form['edit_delete']) && $form['edit_delete'][0]){
+           foreach ($form['edit_delete'] as  $key => $item){
+               if(is_int($key)){
+                   $form['edit_delete'][$key]['#value'] = '';
+               }
+           }
+       }
+    }
+
     if($form_id !== 'views_ui_edit_form' && $form_id !== 'views_ui_preview_form'){
 //        drupal_add_js(drupal_get_path('theme', 'dieta4u'). '/js/jquery-ui.js');
         drupal_add_js(libraries_get_path('nice-select') . '/js/jquery.nice-select.js');

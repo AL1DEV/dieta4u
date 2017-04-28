@@ -5,7 +5,7 @@
                 <?php print $label; ?>
             </div>
         <?php endif; ?>
-        <?php if($status == 'Active'): ?>
+        <?php if($status == 'Активно'): ?>
             <?php print'<div class="active">в наличии</div>';?>
         <?php else: ?>
             <?php print'<div class="disabled">нет в наличии</div>';?>
