@@ -48,3 +48,13 @@ function dieta4u_twix_form_alter(&$form, &$form_state, $form_id){
     }
 
 }
+
+
+function dieta4u_twix_mail_alter(&$message) {
+    $from = '"DIETA4U" <admin@dieta4u.com.ua>';
+
+    $message['from'] = $from;
+    $message['headers']['From'] = $from;
+    $message['headers']['Sender'] = $from;
+    $message['headers']['Return-Path'] = $from;
+}
