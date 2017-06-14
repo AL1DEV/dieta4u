@@ -249,7 +249,7 @@ $databases['default']['default'] = array(
       'driver' => 'mysql',
       'database' => 'dieta4u',
       'username' => 'root',
-      'password' => '',
+      'password' => '937MSiye',
       'host' => 'localhost',
       'prefix' => '',
     );
