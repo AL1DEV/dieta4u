@@ -7,7 +7,8 @@
             self.filter();
             self.ajaxCart();
 
-                $('.form-item-quantity input, .commerce-line-item-views-form .views-field-edit-quantity input').spinner({
+             var  $spinner = $('.form-item-quantity input, .commerce-line-item-views-form .views-field-edit-quantity input');
+             $spinner.spinner({
                     min: 1,
                     max: 9999,
                     increment: 'fast',

@@ -24,6 +24,28 @@ function dieta4u_twix_form_alter(&$form, &$form_state, $form_id){
         }
     }
 
+    if($form_id == 'commerce_checkout_form_checkout'){
+        global $user;
+        $order = commerce_cart_order_load($user->uid);
+        $total = '';
+        // Get the order wrapper
+        $order_wrapper = entity_metadata_wrapper('commerce_order', $order);
+
+        // Order total.
+        $order_total = $order_wrapper->commerce_order_total->value();
+
+        // Get ex vat amount.
+        $total = commerce_price_component_total($order_total , 'base_price');
+        $total = commerce_currency_format($total['amount'], $total['currency_code']);
+
+        unset($form['buttons']['back']);
+        unset($form['buttons']['cancel']);
+
+        $form['buttons']['continue']['#value'] = 'Завершить заказ';
+        $form['buttons']['continue']['#prefix'] = theme('dieta4u_order_total' , array('total' => $total));
+
+    }
+
     if($form_id == 'views_exposed_form'){
         if (isset($form['title'])) {
             $form['title']['#attributes'] = array('placeholder' => array('Поиск по каталогу'));
@@ -57,4 +79,14 @@ function dieta4u_twix_mail_alter(&$message) {
     $message['headers']['From'] = $from;
     $message['headers']['Sender'] = $from;
     $message['headers']['Return-Path'] = $from;
+}
+
+function dieta4u_twix_theme( &$existing, &$type, &$theme, &$path )
+{
+    return array(
+        'dieta4u_order_total' => array(
+            'total' => array(),
+            'template' => 'dieta4u_order_total'
+        )
+    );
 }

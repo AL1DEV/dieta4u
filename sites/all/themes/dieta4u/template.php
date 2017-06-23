@@ -21,6 +21,35 @@ function dieta4u_preprocess_node(&$variables) {
   }
 }
 
+function dieta4u_preprocess_page(&$variables, $hook) {
+//    drupal_add_js(drupal_get_path('theme', 'dieta4u') . '/js/ui.spinner.min.js', array(
+//        'type' => 'file',
+//        'group' => JS_THEME,
+//    ));
+
+    drupal_add_js(drupal_get_path('theme', 'dieta4u') . '/js/jquery.maskedinput.min.js', array(
+        'type' => 'file',
+        'group' => JS_THEME,
+    ));
+
+    drupal_add_js(drupal_get_path('theme', 'dieta4u') . '/js/jquery.validate.min.js', array(
+        'type' => 'file',
+        'group' => JS_THEME,
+    ));
+
+    drupal_add_js(drupal_get_path('theme', 'dieta4u') . '/js/dieta4u-validator.js', array(
+        'type' => 'file',
+        'group' => JS_THEME,
+    ));
+
+    drupal_add_js(drupal_get_path('theme', 'dieta4u') . '/js/dieta4u.js', array(
+        'type' => 'file',
+        'group' => JS_THEME,
+    ));
+
+    $vars['scripts'] = drupal_get_js();
+}
+
 function dieta4u_preprocess_html(&$variables) {
 //    drupal_add_css('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&amp;subset=cyrillic,cyrillic-ext', array('type' => 'external'));
 }

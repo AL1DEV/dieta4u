@@ -398,12 +398,12 @@ body.front{
       padding: 10px 15px;
     }
     input[name=quantity]{
-      width: 56px;
+      width: 56px!important;
       height: 41px;
       border-radius: 2px;
       border: 2px solid rgba(0, 0, 0, 0.1);
       box-shadow: none;
-      text-align: center;
+      text-align: center!important;
       float: left;
       margin-right: 9px;
 
@@ -1109,7 +1109,8 @@ body.node-type-page{
 }
 
 // Cart style
-.page-cart{
+.page-cart,
+.page-checkout{
   h1{
     font-family: 'Roboto';
     text-align: center;
@@ -1117,14 +1118,25 @@ body.node-type-page{
     font-size: 36px;
     border-bottom: none;
   }
-  .view-commerce-cart-form{
+  .view-header{
+    h2{
+      font-family: 'Roboto';
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 24px;
+      color: #666666;
+      margin-left:6px;
+    }
+  }
+  .view-commerce-cart-form,
+  .view-commerce-cart-summary{
     table{
       font-family: 'Roboto';
       font-size: 16px;
       font-weight: 300;
       line-height: 24px;
       color: #333333;
-      border-bottom: 2px solid #999999;
+      border-bottom: 1px solid #dddddd;
       margin-bottom: 0px;
       thead{
         border-bottom: 1px solid #333333;
@@ -1253,4 +1265,261 @@ body.node-type-page{
       }
     }
   }
+  .view-commerce-cart-summary{
+    td.views-field-quantity{
+      font-weight: 500;
+      color: #666666;
+      font-family: 'Roboto';
+      font-size: 17px;
+      line-height: 24px;
+      padding-left: 40px;
+    }
+  }
+
+  .customer_profile_billing{
+    margin-top: 50px;
+    legend{
+      border-bottom: none;
+    }
+    .fieldset-legend{
+      font-family: 'Roboto';
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 24px;
+      color: #666666;
+    }
+  }
+  #edit-account{
+    legend{
+      display: none;
+        }
+  }
+  #edit-customer-profile-billing{
+    legend{
+      margin-bottom:  35px;
+    }
+    .field-name-field-biling-f,
+    .field-name-field-biling-name,
+    .field-name-field-biling-o,
+    .field-name-field-biling-telephone,
+    .field-name-field-biling-city{
+      float:left;
+    }
+
+    .field-name-field-biling-city{
+     #autocomplete{
+       width: auto!important;
+       padding: 18px;
+       background: white;
+       li{
+         cursor: pointer;
+         color: #555555;
+         background: transparent;
+         font-family: 'Roboto';
+         font-size: 18px;
+         line-height: 100%;
+         font-weight: 300;
+         margin-bottom: 10px;
+         &:last-of-type{
+           margin-bottom: 0;
+         }
+         &:hover{
+           color: black;
+         }
+       }
+     }
+    }
+    .field-name-field-biling-o{
+     float: none;
+    }
+    .field-widget-text-textfield,
+    .field-widget-phone-textfield,
+    .field-widget-taxonomy-autocomplete{
+      input{
+        width: 230px;
+        height: 50px;
+        border-radius: 2px;
+
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 400;
+        padding: 18px;
+        margin-right: 22px;
+        &.error{
+          margin-bottom: 0;
+        }
+      }
+    }
+    .control-label{
+      font-family: 'Roboto';
+      margin-left: 3px;
+      color:#333333;
+    }
+    .field-widget-taxonomy-autocomplete{
+      input{
+        background-position: 98%;
+      }
+    }
+  }
+  .form-item-account-login-mail{
+    label{
+      font-family: 'Roboto';
+      margin-left: 3px;
+      color:#333333;
+    }
+    input{
+      width: 230px;
+      height: 50px;
+      border-radius: 2px;
+
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: 400;
+      padding: 18px;
+      margin-right: 22px;
+    }
+  }
+  input.error{
+    background: #ffdfdb;
+
+    border-color: #eb3f29;
+    border-left: 5px;
+    border-right: 0;
+    border-top:0;
+    border-bottom: 0;
+  }
+  label.error{
+    display: block;
+    color: #eb3f29;
+
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 300;
+  }
+  #edit-customer-profile-shipping{
+    legend{display: none}
+    .nice-select.form-select{
+      width: 482px;
+      height: 50px;
+      border-radius: 2px;
+      padding: 18px;
+      border: 1px solid #cccccc;
+      margin-bottom: 5px;
+
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 10px;
+    }
+    .nice-select.open .list{
+      margin-left: 0;
+      margin-top: 0;
+      width: 480px;
+      border-radius: 0;
+    }
+  }
+  .field-name-field-shipping-methode{
+    float: left;
+    margin-right: 22px;
+    p.help-block{max-width: 320px;line-height: 13px;}
+  }
+  .field-name-field-shipping-number{
+    .controls label{margin-left: 505px}
+    input{
+      width: 230px;
+      height: 50px;
+
+      border-radius: 2px;
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 10px;
+      &.error{
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .field-name-field-shipping-adress{
+    .controls label{margin-left: 505px}
+    input{
+      width: 230px;
+      min-height: 50px;
+      padding: 13px 18px;
+
+      border-radius: 2px;
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: 400;
+      //line-height: 10px;
+      &.error{
+        margin-bottom: 0;
+      }
+    }
+  }
+  .customer_profile_shipping{
+    margin-top: 16px;
+  }
+}
+
+.page-checkout{
+  .checkout-buttons{
+    hr{
+      border-top:2px solid #999999;
+    }
+.line-item-total-label{
+  font-family: 'Roboto';
+  color: #666666;
+  font-size: 24px;
+  font-weight: 100;
+}
+    .line-item-total-raw{
+      font-family: 'Roboto';
+      color: #666666;
+      font-size: 21px;
+      font-weight: 400;
+
+    }
+    .description{
+      color:#666666;
+      font-family: 'Roboto';
+      font-size: 12px;
+      display: block;
+      margin-top: 7px;
+      font-weight: 300;
+      line-height: 100%;
+    }
+    button{
+      float: right;
+      outline: none !important;
+      border: 2px solid #eb3f29;
+      border-radius: 2px;
+      background-color: transparent;
+      color: #eb3f29;
+      width: 180px;
+      height: 51px;
+      font-family: 'Roboto';
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .left-side{
+      float: left;
+    }
+  }
+}
+
+#commerce-checkout-form-checkout{
+#edit-cart-contents{
+  legend{
+    text-align: center;
+    font-family: 'Roboto';
+    color: #333333;
+    font-size: 36px;
+    border-bottom: none;
+  }
+}
+  //.button-operator{display: none}
+  //.checkout-cancel.btn.form-submit{display: none}
 }

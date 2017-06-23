@@ -5,38 +5,69 @@ define('POCHTA_API_KEY','2ef22838b76b10ee499a99744745a64d');
  * Implements hook_init().
  */
 function dieta4u_novay_pochta_init(){
-    $url = 'https://api.novaposhta.ua/v2.0/json/AddressGeneral/getSettlements/';
-    $file = 'city.txt';
+//    $url = 'https://api.novaposhta.ua/v2.0/json/documentsTracking/';
+//    $url = 'http://testapi.novaposhta.ua/v2.0/en/documentsTracking/json/';
+//    $file = 'city.txt';
+//
+//    $data = array(
+//        'apiKey' => POCHTA_API_KEY,
+//        'modelName' => 'TrackingDocument',
+//        'calledMethod' => 'getStatusDocuments',
+//        'methodProperties' => array(
+//            'Documents' => array(
+//                'DocumentNumber' => "59000263255809",
+//                'Phone' => '+380666030725'
+//            )
+//        )
+//    );
+//
+//    $data = (object) [
+//        'apiKey' => POCHTA_API_KEY,
+//        'modelName' => 'TrackingDocument',
+//        'calledMethod' => 'getStatusDocuments',
+//        'methodProperties' => ['Documents' => array ('DocumentNumber' => "20400048799001",'Phone')]
+//    ];
+//
+//    $options = array(
+//            'method' => 'POST',
+//            'data' => json_encode($data),
+//            'timeout' => 15,
+//            'headers' => array('Content-Type' => 'application/json'),
+//        );
+//    $result = drupal_http_request($url, $options);
+//    $response =  json_decode($result->data);
+//
+//    dsm($result);
         //185 pages
-    for($i = 1; $i <= 1; $i++ ){
-        $data = array(
-            'modelName' => 'Address',
-            'calledMethod' => 'getCities',
-            'methodProperties' => array(
-                'Page' => $i,
-            ),
-            'apiKey' => POCHTA_API_KEY
-        );
-        $options = array(
-            'method' => 'POST',
-            'data' => json_encode($data),
-            'timeout' => 15,
-            'headers' => array('Content-Type' => 'application/json'),
-        );
-
-         $result = drupal_http_request($url, $options);
-         $response =  json_decode($result->data);
-
-         //Pars data
-         foreach ($response->data as $data){
+//    for($i = 1; $i <= 1; $i++ ){
+//        $data = array(
+//            'modelName' => 'Address',
+//            'calledMethod' => 'getCities',
+//            'methodProperties' => array(
+//                'Page' => $i,
+//            ),
+//            'apiKey' => POCHTA_API_KEY
+//        );
+//        $options = array(
+//            'method' => 'POST',
+//            'data' => json_encode($data),
+//            'timeout' => 15,
+//            'headers' => array('Content-Type' => 'application/json'),
+//        );
+//
+//         $result = drupal_http_request($url, $options);
+//         $response =  json_decode($result->data);
+//
+//         //Pars data
+//         foreach ($response->data as $data){
 //            $title = $data->DescriptionRu;
-
-             // Открываем файл для получения существующего содержимого
+//
+//            //  Открываем файл для получения существующего содержимого
 //             $current = file_get_contents($file);
-             // Добавляем нового человека в файл
+//            //  Добавляем нового человека в файл
 //             $current .= "$title\n";
-             // Пишем содержимое обратно в файл
+//           //   Пишем содержимое обратно в файл
 //             file_put_contents($file, $current);
-         }
-    }
+//         }
+//    }
 }

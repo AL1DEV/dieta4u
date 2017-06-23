@@ -16,7 +16,6 @@ regions[footer]         = 'Footer'
 stylesheets[all][] = less/style.less
 
 ; Scripts
-scripts[] = js/dieta4u.js
 
 ;**********************************
 ; METHOD 1: Bootstrap Source Files

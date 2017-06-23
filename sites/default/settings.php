@@ -247,10 +247,10 @@
 $databases = array();
 $databases['default']['default'] = array(
       'driver' => 'mysql',
-      'database' => 'dieta4u',
+      'database' => 'dieta4u_new',
       'username' => 'root',
       'password' => '',
-      'host' => 'localhost',
+      'host' => '127.0.0.1',
       'prefix' => '',
     );
 
