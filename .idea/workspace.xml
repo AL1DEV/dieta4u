@@ -2,58 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="80f8ca5b-f162-451b-b319-05ebf4d0996b" name="Default" comment="" />
-    <list id="3d2547b2-52ac-4f92-b10d-c16773dee4e8" name="commerce-fix access for rows w null in left join-1276450-167" comment="#2">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.-wZfx7khxbGXh_C_wbS_EkA0xUMfQ6lspNumxZlIStk.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.4bP9dpAI9iTxmt54Z4HXytf0SnV2ymJUy7z4nQg63Ws.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.7Kq8apgTVxTsUwJ9VDi3GREIFh13q1cgO56Ry-NVCYU.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.J6AzvjOWzYsnAliNbkkZWoKZtoW13nr5OM83ZOTKAAA.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.MQ72jWafBTGLwlfifKbx84WkMOcz-0itZU2AslLs-sk.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.XwlhZCw3U2Ev2rT_XPkMGKUCn_W_l_anWqLHSo-zREw.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style._Eiyh-dOsMQtK0ZnEJYQE4bdmEKHggCwkwfKVQmlKMo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.a5MHb61nLaIkqlrhMk8iDDaNQQkDiZ9vDmPfc6yrDBY.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.itR5BW8oZUKtYDZdb-QkFveST21ayl42y3TitzLf4RE.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.kz-novBR-d_XI-EvvR65B4naEQDvk5diWYhtgfk2bWs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.omL0XQMtKP1_RB5sRZrUEaVOsvdgYdBFFwEWO1N7QcI.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.pV0KWiuWcDf1zbU-OeHNrp3ZX_TDhZe6eYyAksdAhmA.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.q6KnRG3M3wMcxdBLOY9ByZeSnEU_Fcv9TS9A-eBlhuQ.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/less/style.uhW4_AYca9HbgyPgV8orF91cozWd2VybxzUoxP53_nU.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_novay_pochta/dieta4u_novay_pochta.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_novay_pochta/dieta4u_novay_pochta.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
-    </list>
-    <list id="2ab76f31-b2e9-48ec-8732-60c84471fe81" name="1227692-conditional fields-required-select" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/patch/test.patch" />
-    </list>
-    <list id="9bb3c4c0-b6b9-4a3e-9c87-37cbaf76b2f0" name="test" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_order_total.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u-validator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/js/jquery.maskedinput.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/js/jquery.validate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/conditional_fields/conditional_fields.module" afterPath="$PROJECT_DIR$/sites/all/modules/conditional_fields/conditional_fields.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/dieta4u/dieta4u.info" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/dieta4u.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/dieta4u/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/dieta4u/template.php" />
-    </list>
+    <list id="3d2547b2-52ac-4f92-b10d-c16773dee4e8" name="commerce-fix access for rows w null in left join-1276450-167" comment="#2" />
+    <list id="2ab76f31-b2e9-48ec-8732-60c84471fe81" name="1227692-conditional fields-required-select" comment="" />
+    <list id="9bb3c4c0-b6b9-4a3e-9c87-37cbaf76b2f0" name="test" comment="" />
     <list default="true" id="9ec71643-a48c-4cb3-8411-98ad00b59a7a" name="mail logger-2549049-25" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.admin.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.install" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.module" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.pages.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.theme.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/views/mail_logger.views.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/views/mail_logger_handler_field_mail.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/mail_logger/views/mail_logger_handler_field_mail_logger_entry.inc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dieta4u.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_novay_pochta/dieta4u_novay_pochta.module" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,74 +38,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less">
+      <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="1453" column="4" lean-forward="false" selection-start-line="1453" selection-start-column="4" selection-end-line="1453" selection-end-column="26" />
-              <folding>
-                <element signature="e#23708#27127#0" expanded="false" />
-                <element signature="e#25292#25656#0" expanded="false" />
-                <element signature="e#25688#25762#0" expanded="false" />
-                <element signature="e#25807#26613#0" expanded="false" />
-                <element signature="e#27157#27346#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dieta4u.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="76">
+              <caret line="255" column="0" lean-forward="true" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dieta4u-validator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u-validator.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="115" column="1" lean-forward="false" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
-              <folding>
-                <marker date="1498230483000" expanded="true" signature="116:436" ph="..." />
-                <marker date="1498230483000" expanded="true" signature="213:424" ph="..." />
-                <marker date="1498230483000" expanded="true" signature="252:417" ph="..." />
-                <marker date="1498230483000" expanded="true" signature="290:404" ph="..." />
-                <marker date="1498230483000" expanded="true" signature="843:979" ph="..." />
-                <marker date="1498230483000" expanded="true" signature="912:978" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dieta4u_twix.module" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dieta4u_order_total.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_order_total.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="84" lean-forward="false" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+            <state relative-caret-position="186">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -194,8 +98,8 @@
       <find>view-commerce-cart-summary</find>
       <find>margin-top: 8px;</find>
       <find>controls</find>
-      <find>field-name-field-shipping-number</find>
       <find>302</find>
+      <find>field-name-field-shipping-number</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -233,7 +137,6 @@
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field--commerce-product-field-field-product-form.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field--field-name-field-product-form.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field--field-product-form.tpl.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view-unformatted--top-products-slider--default.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--product--default.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--product--full.tpl.php" />
@@ -262,7 +165,6 @@
         <option value="$PROJECT_DIR$/city.txt" />
         <option value="$PROJECT_DIR$/sites/all/modules/commerce_add_to_cart_confirmation/commerce_add_to_cart_confirmation.rules.inc" />
         <option value="&lt;4cbe76be-738d-401f-9fb5-d7db3ef3f9d9&gt;/sites/default/settings.php" />
-        <option value="$PROJECT_DIR$/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/conditional_fields/conditional_fields.module" />
         <option value="$PROJECT_DIR$/sites/all/patch/test.patch" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/views-view-field--commerce-cart-summary--default--commerce-total.tpl.php" />
@@ -278,6 +180,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u-validator.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less" />
         <option value="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.install" />
+        <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -357,6 +261,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dieta4u" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dieta4u" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -380,28 +302,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="patch" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dieta4u" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dieta4u" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -599,7 +499,7 @@
       <workItem from="1497412830183" duration="1100000" />
       <workItem from="1497785540080" duration="178000" />
       <workItem from="1497786015331" duration="9556000" />
-      <workItem from="1498208560274" duration="20211000" />
+      <workItem from="1498208560274" duration="21105000" />
     </task>
     <task id="LOCAL-00001" summary="#3">
       <created>1493197937890</created>
@@ -615,11 +515,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494258265617</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mail logger-2549049-25">
+      <created>1498245582284</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1498245582284</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141270000" />
+    <option name="totallyTimeSpent" value="142164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,21 +540,21 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19957082" sideWeight="0.67164177" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253012" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27679783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19957082" sideWeight="0.67164177" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27679783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -709,7 +616,8 @@
     <MESSAGE value="#3" />
     <MESSAGE value="#4" />
     <MESSAGE value="add header to email" />
-    <option name="LAST_COMMIT_MESSAGE" value="add header to email" />
+    <MESSAGE value="mail logger-2549049-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="mail logger-2549049-25" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -719,20 +627,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--product--slider.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field--field-product-image.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field_slideshow.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -881,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="277" column="34" lean-forward="true" selection-start-line="277" selection-start-column="34" selection-end-line="277" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/commerce/modules/checkout/tests/commerce_checkout.test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -908,13 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/patch/test.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1073,6 +953,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="187" column="32" lean-forward="false" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/patch/test.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="255" column="0" lean-forward="true" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>
