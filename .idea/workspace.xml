@@ -4,13 +4,17 @@
     <list id="80f8ca5b-f162-451b-b319-05ebf4d0996b" name="Default" comment="" />
     <list id="3d2547b2-52ac-4f92-b10d-c16773dee4e8" name="commerce-fix access for rows w null in left join-1276450-167" comment="#2" />
     <list id="2ab76f31-b2e9-48ec-8732-60c84471fe81" name="1227692-conditional fields-required-select" comment="" />
-    <list id="9bb3c4c0-b6b9-4a3e-9c87-37cbaf76b2f0" name="test" comment="" />
-    <list default="true" id="9ec71643-a48c-4cb3-8411-98ad00b59a7a" name="mail logger-2549049-25" comment="">
+    <list default="true" id="9bb3c4c0-b6b9-4a3e-9c87-37cbaf76b2f0" name="test" comment="test push" />
+    <list id="9ec71643-a48c-4cb3-8411-98ad00b59a7a" name="mail logger-2549049-25" comment="change style">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="46536075-6481-401e-b4e5-38a75a3b6d90" name="JS Fixes and Linting and Compatible with ImagesLoaded and type Drupal Error fix-2822664-4" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/patch/test.patch" afterPath="$PROJECT_DIR$/sites/all/patch/test.patch" />
     </list>
     <ignored path="dieta4u.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,31 +42,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="content.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="667" column="0" lean-forward="false" selection-start-line="667" selection-start-column="0" selection-end-line="667" selection-end-column="0" />
+              <folding>
+                <element signature="e#25555#25919#0" expanded="false" />
+                <element signature="e#25951#26025#0" expanded="false" />
+                <element signature="e#26070#26876#0" expanded="false" />
+                <element signature="e#27420#27609#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.patch" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/patch/test.patch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3680">
+              <caret line="278" column="110" lean-forward="false" selection-start-line="278" selection-start-column="110" selection-end-line="278" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="field_slideshow.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/field_slideshow/field_slideshow.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="982" column="13" lean-forward="true" selection-start-line="982" selection-start-column="13" selection-end-line="982" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="136" column="69" lean-forward="true" selection-start-line="136" selection-start-column="69" selection-end-line="136" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dieta4u.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dieta4u_twix.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer_manager.info" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/composer_manager/composer_manager.info">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,15 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Order total</find>
-      <find>Итого к опл</find>
-      <find>Итого</find>
-      <find>page-cart</find>
-      <find>Итого к оплате</find>
-      <find>NPClient</find>
-      <find>\$data \= \{\&quot;apiKey\&quot;\:\&quot;2ef22838b76b10ee499a99744745a64d\&quot;\,\&quot;modelName\&quot;\:\&quot;TrackingDocument\&quot;\,\&quot;calledMethod\&quot;\:\&quot;getStatusDocuments\&quot;\,\&quot;methodProperties\&quot;\:\{\&quot;Documents\&quot;\:\{\&quot;DocumentNumber\&quot;\:\&quot;59000263255809\&quot;\,\&quot;Phone\&quot;\:\&quot;\+380666030725\&quot;\}\}\}\n</find>
-      <find>ds</find>
-      <find>edit-cart-contents</find>
       <find>page-checkout</find>
       <find>account-login-container</find>
       <find>ui.spinner.mi</find>
@@ -98,7 +138,6 @@
       <find>Корзина</find>
       <find>ui.spinner.min</find>
       <find>Платежная информация</find>
-      <find>is not a valid Ukrainian mobile phone number</find>
       <find>5px</find>
       <find>edit-customer-profile-billing</find>
       <find>dit-customer-profile-billing</find>
@@ -110,6 +149,16 @@
       <find>controls</find>
       <find>302</find>
       <find>field-name-field-shipping-number</find>
+      <find>movableContent</find>
+      <find>contentEditableContainer contentTextEditable</find>
+      <find>Sent to [email] by [CLIENTS.COMPANY_NAME]</find>
+      <find>headerCard</find>
+      <find>is not a valid Ukrainian mobile phone number</find>
+      <find>spinne</find>
+      <find>ui-widget-content</find>
+      <find>margin-top: 10px;</find>
+      <find>jquery-ui</find>
+      <find>dieta4u@gmail.com</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -141,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node--products.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/node/node--product--slider.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view--commerce-cart-block--default.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field--commerce-product-field-field-product-form.tpl.php" />
@@ -158,7 +206,6 @@
         <option value="$PROJECT_DIR$/sites/all/libraries/fancybox/src/js/media.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/manualcrop/manualcrop.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field-product-image.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/field_slideshow/field_slideshow.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field_slideshow.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view-unformatted--catalog--page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/field_product_image.tpl.php" />
@@ -167,7 +214,6 @@
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-exposed-form--catalog--mastertpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_top_bar/top_bar.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-exposed-form--catalog--page.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/commerce-product-status.tpl.php" />
@@ -176,22 +222,25 @@
         <option value="$PROJECT_DIR$/sites/all/modules/commerce_add_to_cart_confirmation/commerce_add_to_cart_confirmation.rules.inc" />
         <option value="&lt;4cbe76be-738d-401f-9fb5-d7db3ef3f9d9&gt;/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/conditional_fields/conditional_fields.module" />
-        <option value="$PROJECT_DIR$/sites/all/patch/test.patch" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/views-view-field--commerce-cart-summary--default--commerce-total.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/field/views-view-field--commerce-cart-summary--default--quantity.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_novay_pochta/dieta4u_novay_pochta.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/dieta4u.info" />
-        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/template.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/test.html" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/my_module_name_page.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_order_total.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u-validator.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less" />
         <option value="$PROJECT_DIR$/sites/all/modules/mail_logger/mail_logger.install" />
         <option value="$PROJECT_DIR$/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$USER_HOME$/Downloads/clickme/index.html" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less" />
+        <option value="$PROJECT_DIR$/sites/all/patch/test.patch" />
+        <option value="$PROJECT_DIR$/sites/all/modules/field_slideshow/field_slideshow.module" />
+        <option value="$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php" />
       </list>
     </option>
   </component>
@@ -271,24 +320,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dieta4u" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dieta4u" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -311,7 +342,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="patch" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,11 +364,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dieta4u" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dieta4u" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composer_manager" />
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.jcarousel" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,11 +420,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/sites/all/libraries/jquery.jcarousel" />
       <recent name="$PROJECT_DIR$/sites/all/patch" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/sites/all/themes/dieta4u/js" />
       <recent name="$PROJECT_DIR$/sites/all/vendor" />
-      <recent name="$PROJECT_DIR$/sites/all/modules/novaposhta/lib/guzzle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sites/all/libraries" />
@@ -502,6 +555,7 @@
       <changelist id="2ab76f31-b2e9-48ec-8732-60c84471fe81" name="1227692-conditional fields-required-select" comment="" />
       <changelist id="9bb3c4c0-b6b9-4a3e-9c87-37cbaf76b2f0" name="test" comment="" />
       <changelist id="9ec71643-a48c-4cb3-8411-98ad00b59a7a" name="mail logger-2549049-25" comment="" />
+      <changelist id="46536075-6481-401e-b4e5-38a75a3b6d90" name="JS Fixes and Linting and Compatible with ImagesLoaded and type Drupal Error fix-2822664-4" comment="" />
       <created>1489563563578</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -535,7 +589,7 @@
       <workItem from="1497412830183" duration="1100000" />
       <workItem from="1497785540080" duration="178000" />
       <workItem from="1497786015331" duration="9556000" />
-      <workItem from="1498208560274" duration="22053000" />
+      <workItem from="1498208560274" duration="27775000" />
     </task>
     <task id="LOCAL-00001" summary="#3">
       <created>1493197937890</created>
@@ -558,11 +612,74 @@
       <option name="project" value="LOCAL" />
       <updated>1498245582284</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change style">
+      <created>1498297373711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1498297373711</updated>
+    </task>
+    <task id="LOCAL-00005" summary="change style">
+      <created>1498298846834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1498298846834</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change style">
+      <created>1498303028246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1498303028246</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test push">
+      <created>1498303534842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1498303534842</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test push">
+      <created>1498303656091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1498303656091</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test push">
+      <created>1498303943617</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1498303943617</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test push">
+      <created>1498304463837</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1498304463837</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test push">
+      <created>1498305888839</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498305888839</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test push">
+      <created>1498306079812</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1498306079812</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143112000" />
+    <option name="totallyTimeSpent" value="148834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,7 +691,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="829" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="829" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -585,7 +702,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2911302" sideWeight="0.67164177" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -653,7 +770,9 @@
     <MESSAGE value="#4" />
     <MESSAGE value="add header to email" />
     <MESSAGE value="mail logger-2549049-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="mail logger-2549049-25" />
+    <MESSAGE value="change style" />
+    <MESSAGE value="test push" />
+    <option name="LAST_COMMIT_MESSAGE" value="test push" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -663,20 +782,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/theme/views-exposed-form.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="33" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/views/views-view-unformatted--catalog--page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/libraries/nice-select/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -705,13 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="136" column="55" lean-forward="false" selection-start-line="136" selection-start-column="55" selection-end-line="136" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -901,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -940,33 +1030,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u-validator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="1453" column="4" lean-forward="false" selection-start-line="1453" selection-start-column="4" selection-end-line="1453" selection-end-column="26" />
-          <folding>
-            <element signature="e#23708#27127#0" expanded="false" />
-            <element signature="e#25292#25656#0" expanded="false" />
-            <element signature="e#25688#25762#0" expanded="false" />
-            <element signature="e#25807#26613#0" expanded="false" />
-            <element signature="e#27157#27346#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,23 +1054,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/patch/test.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/clickme/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="197" column="32" lean-forward="true" selection-start-line="197" selection-start-column="32" selection-end-line="197" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/composer_manager/composer_manager.info">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1018,10 +1089,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/composer_manager/composer_manager.info">
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/js/dieta4u.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/dieta4u_twix/dieta4u_twix.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/less/content.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="667" column="0" lean-forward="false" selection-start-line="667" selection-start-column="0" selection-end-line="667" selection-end-column="0" />
+          <folding>
+            <element signature="e#25555#25919#0" expanded="false" />
+            <element signature="e#25951#26025#0" expanded="false" />
+            <element signature="e#26070#26876#0" expanded="false" />
+            <element signature="e#27420#27609#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/patch/test.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3680">
+          <caret line="278" column="110" lean-forward="false" selection-start-line="278" selection-start-column="110" selection-end-line="278" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/field_slideshow/field_slideshow.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="982" column="13" lean-forward="true" selection-start-line="982" selection-start-column="13" selection-end-line="982" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/dieta4u/templates/page--front.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="136" column="69" lean-forward="true" selection-start-line="136" selection-start-column="69" selection-end-line="136" selection-end-column="69" />
           <folding />
         </state>
       </provider>

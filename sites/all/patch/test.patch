@@ -1,97 +1,279 @@
-diff --git a/conditional_fields.module b/conditional_fields.module
-index 56b65b5..66bd455 100644
---- a/conditional_fields.module
-+++ b/conditional_fields.module
-@@ -672,7 +672,40 @@ function conditional_fields_dependent_validate($element, &$form_state, $form) {
-   $dependent = $element[$element['#language']];
+diff --git a/field_slideshow.info b/field_slideshow.info
+index d7e3998..0d78ade 100644
+--- a/field_slideshow.info
++++ b/field_slideshow.info
+@@ -5,5 +5,6 @@ package = Fields
 
-   // Check if this field's dependencies were triggered.
--  if (conditional_fields_evaluate_dependencies($dependent, $form, $form_state)) {
-+  $triggered = conditional_fields_evaluate_dependencies($dependent, $form, $form_state);
-+  $parents = $dependent['#parents'];
-+  $error_key = array_shift($parents);
-+  $error_key .= '[' . implode('][', $parents) . ']';
-+
-+  if ($evaluated_dependencies = conditional_fields_evaluate_dependencies($dependent, $form, $form_state, FALSE)) {
-+    foreach ($evaluated_dependencies[$dependent['#field_name']] as $operator) {
-+      foreach ($operator as $state => $result) {
-+        if (($result && $state == 'required' && $triggered) || (!$result && $state == '!required' && !$triggered)) {
-+          $input_state = drupal_array_get_nested_value($form_state['values'], $dependent['#parents']);
-+
-+          if (isset($dependent['#field_name'])) {
-+            $field = field_info_field($dependent['#field_name']);
-+            $input_state = _field_filter_items($field, $input_state);
-+          }
-+
-+          if (empty($input_state)) {
-+            $title = '';
-+            if (isset($dependent['#title'])) {
-+              $title = $dependent['#title'];
-+            }
-+            else {
-+              if (isset($dependent[0]['#title'])) {
-+                $title = $dependent[0]['#title'];
-+              }
-+            }
-+            form_set_error($error_key, t('The !title field is required', array('!title' => $title)));
-+          }
-+        }
-+      }
+ dependencies[] = image
+ dependencies[] = libraries
++dependencies[] = jquery_update
+
+-files[] = field_slideshow.module
+\ No newline at end of file
++files[] = field_slideshow.module
+diff --git a/field_slideshow.install b/field_slideshow.install
+index ad01e8a..c1efc1e 100644
+--- a/field_slideshow.install
++++ b/field_slideshow.install
+@@ -5,6 +5,19 @@
+  * Install, update and uninstall functions for the Field Slideshow module.
+  */
+
++function _check_required_jquery_version($ver){
++  $status = true;
++  if ($ver == '') {
++    $status = false;
++  } else{
++    $version = explode(".", $ver);
++    if((int)$version[1] < 5 ){
++      $status = false;
 +    }
 +  }
++  return $status;
++}
 +
-+  if ($triggered) {
-     return;
-   }
-
-@@ -683,7 +716,7 @@ function conditional_fields_dependent_validate($element, &$form_state, $form) {
-
-   // Optional behavior: reset the field to its default values.
-   // Default values are always valid, so it's safe to skip validation.
--  if (!empty($element['#conditional_fields_reset_if_untriggered'])) {
-+  if (!empty($element['#conditional_fields_reset_if_untriggered']) && !$triggered) {
-     $form_state_addition['reset'] = TRUE;
-   }
-
-@@ -751,10 +784,7 @@ function conditional_fields_form_validate($form, &$form_state) {
-       continue;
-     }
-
--    if (empty($field['reset'])) {
--      unset($field_values_location[$dependent['#field_name']]);
--    }
--    else {
-+    if (!empty($field['reset'])) {
-       $dependent_info = field_form_get_state($dependent['#field_parents'], $dependent['#field_name'], $dependent['#language'], $form_state);
-       $field_values_location[$dependent['#field_name']][$dependent['#language']] = field_get_default_value($dependent_info['instance']['entity_type'], NULL, $dependent_info['field'], $dependent_info['instance'], $dependent['#language']);
-     }
-@@ -994,7 +1024,7 @@ function conditional_fields_evaluate_grouping($groups) {
-  * @param $dependent
-  *   The field form element in the current language.
+ /**
+  * Implements hook_requirements().
   */
--function conditional_fields_evaluate_dependencies($dependent, $form, $form_state) {
-+function conditional_fields_evaluate_dependencies($dependent, $form, $form_state, $grouping = TRUE) {
-   $dependencies = $form['#conditional_fields'][$dependent['#field_name']]['dependees'];
-   $evaluated_dependees = array();
+@@ -14,6 +27,21 @@ function field_slideshow_requirements($phase) {
+   if ($phase == 'runtime') {
+     $t = get_t();
 
-@@ -1016,10 +1046,18 @@ function conditional_fields_evaluate_dependencies($dependent, $form, $form_state
-       $values = $values[$dependee_parent[$dependee]['#language']];
++    if(_check_required_jquery_version(variable_get('jquery_update_jquery_version', '1.10'))){
++      $requirements['field_slideshow_jquery_plugin'] = array(
++        'title'     => $t('JQuery Cycle plugin'),
++        'severity'  => REQUIREMENT_OK,
++        'value'     => $t('Installed'),
++      );
++    } else{
++      $requirements['field_slideshow_jquery_plugin'] = array(
++        'title'       => $t('jQuery Version Error'),
++        'value'       => $t('Not correct'),
++        'severity'    => REQUIREMENT_ERROR,
++        'description' => $t('You need to update the jquery to version 1.5 or above. Current version is ' . variable_get('jquery_update_jquery_version', '1.10')),
++      );
++    }
++
+     $path = libraries_get_path('jquery.cycle');
+     if ($path == '') $path = '/sites/all/libraries/jquery.cycle';
+     if (file_exists($path . '/jquery.cycle.all.min.js') || file_exists($path . '/jquery.cycle.all.js')) {
+@@ -28,7 +56,7 @@ function field_slideshow_requirements($phase) {
+         'title'       => $t('JQuery Cycle plugin'),
+         'value'       => $t('Not found'),
+         'severity'    => REQUIREMENT_ERROR,
+-        'description' => $t('You need to download the !name and move the downloaded js file(s) into the %path folder of your server.', array('!name' => l($t('JQuery Cycle plugin'), 'http://jquery.malsup.com/cycle/download.html'), '%path' => $path)),
++        'description' => $t('You need to download the !name version 3.0.3 and move the downloaded js file(s) into the %path folder of your server and rename it to jquery.cycle and rename file to jquery.cycle.all.min.js or jquery.cycle.all.js.', array('!name' => l($t('JQuery Cycle plugin'), 'https://github.com/malsup/cycle/archive/3.0.3.zip'), '%path' => $path)),
+       );
      }
 
--    $evaluated_dependees[$dependent['#field_name']][$dependency['options']['grouping']][] = conditional_fields_evaluate_dependency('edit', $values, $dependency['options']);
-+    if ($grouping) {
-+      $evaluated_dependees[$dependent['#field_name']][$dependency['options']['grouping']][] = conditional_fields_evaluate_dependency('edit', $values, $dependency['options']);
+@@ -61,7 +89,7 @@ function field_slideshow_requirements($phase) {
+           'title'       => $t('JCarousel plugin'),
+           'value'       => $t('Not found'),
+           'severity'    => REQUIREMENT_ERROR,
+-          'description' => $t('You need to download the !name and move the content of the downloaded folder into the %path folder of your server. When this is done there should be a file sites/all/libraries/jquery.jcarousel/lib/jquery.jcarousel.js, or jquery.jcarousel.min.js', array('!name' => l($t('JCarousel plugin'), 'https://github.com/jsor/jcarousel/archive/0.2.9.zip'), '%path' => $path)),
++          'description' => $t('You need to download the !name and move the content of the downloaded folder into the %path folder of your server. When this is done there should be a file sites/all/libraries/jquery.jcarousel/lib/jquery.jcarousel.js, or jquery.jcarousel.min.js', array('!name' => l($t('JCarousel plugin'), 'http://sorgalla.com/jcarousel/'), '%path' => $path)),
+         );
+       }
+     }
+@@ -80,9 +108,28 @@ function field_slideshow_requirements($phase) {
+         'title'       => $t('JQuery ImagesLoaded plugin'),
+         'value'       => $t('Not found'),
+         'severity'    => REQUIREMENT_WARNING,
+-        'description' => $t('For best results, you should download the !name 2.1.2 and move the downloaded js file(s) into the %path folder of your server.', array('!name' => l($t('JQuery ImagesLoaded plugin'), 'https://github.com/desandro/imagesloaded/archive/v2.1.2.zip'), '%path' => $path)),
++        'description' => $t('For best results, you should download the !name version v4.1.1 and move the downloaded js file(s) into the %path folder of your server. and rename it to jquery.imagesloaded and js file to jquery.imagesloaded.*.js .', array('!name' => l($t('JQuery ImagesLoaded plugin'), 'https://github.com/desandro/imagesloaded/archive/v4.1.1.zip'), '%path' => $path)),
+       );
+     }
++
++    $path = libraries_get_path('jquery.ev-emitter');
++    if ($path == '') $path = '/sites/all/libraries/jquery.ev-emitter';
++    if (file_exists($path . '/ev-emitter.js')) {
++      $requirements['field_slideshow_evEmitter_plugin'] = array(
++        'title'     => $t('Event Emitter plugin'),
++        'severity'  => REQUIREMENT_OK,
++        'value'     => $t('Installed'),
++      );
 +    }
 +    else {
-+      $evaluated_dependees[$dependent['#field_name']][$dependency['options']['grouping']][$dependency['options']['state']] = conditional_fields_evaluate_dependency('edit', $values, $dependency['options']);
++      $requirements['field_slideshow_evEmitter_plugin'] = array(
++        'title'       => $t('Event Emitter plugin'),
++        'value'       => $t('Not found'),
++        'severity'    => REQUIREMENT_ERROR,
++        'description' => $t('You need to download the !name and move the downloaded js file(s) into the %path folder of your server and rename the folder to jquery.ev-emitter.', array('!name' => l($t('Event Emitter plugin'), 'https://github.com/metafizzy/ev-emitter/archive/master.zip'), '%path' => $path)),
++      );
 +    }
++
    }
 
--  return conditional_fields_evaluate_grouping($evaluated_dependees[$dependent['#field_name']]);
-+  if ($grouping) {
-+    return conditional_fields_evaluate_grouping($evaluated_dependees[$dependent['#field_name']]);
-+  }
-+  return $evaluated_dependees;
- }
+   return $requirements;
+diff --git a/field_slideshow.js b/field_slideshow.js
+index 7dfda6b..359497f 100644
+--- a/field_slideshow.js
++++ b/field_slideshow.js
+@@ -14,7 +14,7 @@
+           }
+           // calculate the slide dimension
+           var slide_width = Math.min(max_width, $slide.data("width"));
+-          var slide_height = max_width / $slide.data("ratio")
++          var slide_height = max_width / $slide.data("ratio");
+           // Resize the iframe / object / embed
+           $this.css({
+             width: slide_width,
+@@ -36,19 +36,17 @@
+       // Recalculate height for responsive layouts
+       var rebuild_max_height = function(context) {
+         resize_videos(context, $(context).width());
+-        var max_height = 0;
+-        var heights = $('.field-slideshow-slide',context).map(function ()
+-        {
+-          //return $(this).outerHeight(true);
+-          return $(this).height();
+-        }).get(),
+-        max_height = Math.max.apply(Math, heights);
++        var heights = $('.field-slideshow-slide', context).map(function() {
++            //return $(this).outerHeight(true);
++            return $(this).height();
++          }).get(),
++          max_height = Math.max.apply(Math, heights);
+         if (max_height > 0) {
+           context.css("height", max_height);
+         }
+       };
 
- /**
+-      for (i in Drupal.settings.field_slideshow) {
++      for (var i in Drupal.settings.field_slideshow) {
+         var settings = Drupal.settings.field_slideshow[i],
+           slideshow = $('div.' + i),
+           num_slides = slideshow.children().length,
+@@ -62,10 +60,10 @@
+             resizing: 0,
+             fx: settings.fx,
+             speed: settings.speed,
+-            timeout: parseInt(settings.timeout),
++            timeout: parseInt(settings.timeout, 10),
+             index: i,
+             settings: settings
+-          }
++          };
+
+           if (settings.speed == "0" && settings.timeout == "0") options.fastOnEvent = true;
+           if (settings.controls) {
+@@ -74,7 +72,7 @@
+           }
+           if (settings.pause) options.pause = true;
+
+-          if (settings.pager != '') {
++          if (settings.pager !== '') {
+             if (settings.pager == 'number' || settings.pager == 'image') options.pager = "#" + i + "-pager";
+             if ((settings.pager == 'image' || settings.pager == 'carousel') && num_slides > 1) {
+               options.pagerAnchorBuilder = function(idx, slide) {
+@@ -82,9 +80,9 @@
+               };
+               if (settings.pager == 'carousel') {
+                 var carouselops = {
+-                  visible: parseInt(settings.carousel_visible),
+-                  scroll: parseInt(settings.carousel_scroll),
+-                  animation: parseInt(settings.carousel_speed),
++                  visible: parseInt(settings.carousel_visible, 10),
++                  scroll: parseInt(settings.carousel_scroll, 10),
++                  animation: parseInt(settings.carousel_speed, 10),
+                   vertical: settings.carousel_vertical,
+                   initCallback: function(carousel) {
+                     $(".jcarousel-prev").addClass('carousel-prev');
+@@ -108,7 +106,7 @@
+                   carouselops.buttonNextHTML = null;
+                   carouselops.buttonPrevHTML = null;
+                 }
+-                if (parseInt(settings.carousel_circular)) carouselops.wrap = 'circular';
++                if (parseInt(settings.carousel_circular, 10)) carouselops.wrap = 'circular';
+
+                 $("#" + i + "-carousel").jcarousel(carouselops);
+                 // the pager is the direct item's parent element
+@@ -135,11 +133,11 @@
+             // If we are using the carousel make it follow the activeSlide
+             // This will not work correctly with circular carousel until the version 0.3 of jcarousel
+             // is released so we disble this until then
+-            if (options.settings.pager == 'carousel' && parseInt(options.settings.carousel_follow) && parseInt(options.settings.carousel_circular) == 0) {
++            if (options.settings.pager === 'carousel' && parseInt(options.settings.carousel_follow, 10) && parseInt(options.settings.carousel_circular, 10) === 0) {
+               var carousel = $("#" + options.index + "-carousel").data("jcarousel");
+               carousel.scroll(nextIndex, true);
+             }
+-          }
++          };
+
+           if (num_slides > 1) {
+
+@@ -148,18 +146,17 @@
+               //on hover
+               slideshow.cycle(options).cycle("pause").hover(function() {
+                 $(this).cycle('resume');
+-              },function(){
++              }, function() {
+                 $(this).cycle('pause');
+               });
+-            }
+-            else {
++            } else {
+               // Cycle!
+               slideshow.cycle(options);
+             }
+
+             // After the numeric pager has been built by Cycle, add some classes for theming
+             if (settings.pager == 'number') {
+-              $('.field-slideshow-pager a').each(function(){
++              $('.field-slideshow-pager a').each(function() {
+                 $this = $(this);
+                 $this.addClass('slide-' + $this.html());
+               });
+@@ -190,26 +187,25 @@
+
+       if (jQuery.isFunction($.fn.imagesLoaded)) {
+         $('.field-slideshow').each(function() {
+-          var field = this;
++          var $self = $(this);
+           $(field).imagesLoaded(function() {
+-            rebuild_max_height($(field));
++            rebuild_max_height($self);
+           });
+         });
+-      }
+-      else {
+-        $(window).load(function(){
+-          $('.field-slideshow').each(function(){
+-            rebuild_max_height($(this))
+-          })
++      } else {
++        $(window).load(function() {
++          $('.field-slideshow').each(function() {
++            rebuild_max_height($(this));
++          });
+         });
+
+       }
+-      $(window).resize(function(){
+-        $('.field-slideshow').each(function(){
+-          rebuild_max_height($(this))
+-        })
++      $(window).resize(function() {
++        $('.field-slideshow').each(function() {
++          rebuild_max_height($(this));
++        });
+       });
+
+     }
+-  }
++  };
+ })(jQuery);
+diff --git a/field_slideshow.module b/field_slideshow.module
+index 8dcfd02..bb1cf8e 100644
+--- a/field_slideshow.module
++++ b/field_slideshow.module
+@@ -871,6 +871,9 @@ function template_preprocess_field_slideshow(&$variables) {
+       elseif (file_exists($path . '/lib/jquery.jcarousel.js')) drupal_add_js($path . '/lib/jquery.jcarousel.js');
+     }
+
++    $path = libraries_get_path('jquery.ev-emitter');
++    if (file_exists($path . '/ev-emitter.js')) drupal_add_js($path . '/ev-emitter.js');
++
+     $path = libraries_get_path('jquery.imagesloaded');
+     if (file_exists($path . '/jquery.imagesloaded.min.js')) drupal_add_js($path . '/jquery.imagesloaded.min.js');
+     elseif (file_exists($path . '/jquery.imagesloaded.js')) drupal_add_js($path . '/jquery.imagesloaded.js');
