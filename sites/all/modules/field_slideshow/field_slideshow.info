@@ -5,6 +5,7 @@ package = Fields
 
 dependencies[] = image
 dependencies[] = libraries
+dependencies[] = jquery_update
 
 files[] = field_slideshow.module
 ; Information added by drupal.org packaging script on 2013-03-14

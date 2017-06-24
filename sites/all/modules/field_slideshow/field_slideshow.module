@@ -850,6 +850,9 @@ function template_preprocess_field_slideshow(&$variables) {
       elseif (file_exists($path . '/lib/jquery.jcarousel.js')) drupal_add_js($path . '/lib/jquery.jcarousel.js');
     }
 
+    $path = libraries_get_path('jquery.ev-emitter');
+    if (file_exists($path . '/ev-emitter.js')) drupal_add_js($path . '/ev-emitter.js');
+
     $path = libraries_get_path('jquery.imagesloaded');
     if (file_exists($path . '/jquery.imagesloaded.min.js')) drupal_add_js($path . '/jquery.imagesloaded.min.js');
     elseif (file_exists($path . '/jquery.imagesloaded.js')) drupal_add_js($path . '/jquery.imagesloaded.js');

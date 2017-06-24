@@ -5,6 +5,19 @@
  * Install, update and uninstall functions for the Field Slideshow module.
  */
 
+function _check_required_jquery_version($ver){
+  $status = true;
+  if ($ver == '') {
+    $status = false;
+  } else{
+    $version = explode(".", $ver);
+    if((int)$version[1] < 5 ){
+      $status = false;
+    }
+  }
+  return $status;
+}
+
 /**
  * Implements hook_requirements().
  */
@@ -13,6 +26,21 @@ function field_slideshow_requirements($phase) {
 
   if ($phase == 'runtime') {
     $t = get_t();
+
+    if(_check_required_jquery_version(variable_get('jquery_update_jquery_version', '1.10'))){
+      $requirements['field_slideshow_jquery_plugin'] = array(
+        'title'     => $t('JQuery Cycle plugin'),
+        'severity'  => REQUIREMENT_OK,
+        'value'     => $t('Installed'),
+      );
+    } else{
+      $requirements['field_slideshow_jquery_plugin'] = array(
+        'title'       => $t('jQuery Version Error'),
+        'value'       => $t('Not correct'),
+        'severity'    => REQUIREMENT_ERROR,
+        'description' => $t('You need to update the jquery to version 1.5 or above. Current version is ' . variable_get('jquery_update_jquery_version', '1.10')),
+      );
+    }
 
     $path = libraries_get_path('jquery.cycle');
     if ($path == '') $path = '/sites/all/libraries/jquery.cycle';
@@ -28,7 +56,7 @@ function field_slideshow_requirements($phase) {
         'title'       => $t('JQuery Cycle plugin'),
         'value'       => $t('Not found'),
         'severity'    => REQUIREMENT_ERROR,
-        'description' => $t('You need to download the !name and move the downloaded js file(s) into the %path folder of your server.', array('!name' => l($t('JQuery Cycle plugin'), 'http://jquery.malsup.com/cycle/download.html'), '%path' => $path)),
+        'description' => $t('You need to download the !name version 3.0.3 and move the downloaded js file(s) into the %path folder of your server and rename it to jquery.cycle and rename file to jquery.cycle.all.min.js or jquery.cycle.all.js.', array('!name' => l($t('JQuery Cycle plugin'), 'https://github.com/malsup/cycle/archive/3.0.3.zip'), '%path' => $path)),
       );
     }
 
@@ -83,6 +111,25 @@ function field_slideshow_requirements($phase) {
         'description' => $t('For best results, you should download the !name and move the downloaded js file(s) into the %path folder of your server.', array('!name' => l($t('JQuery ImagesLoaded plugin'), 'https://github.com/desandro/imagesloaded/downloads'), '%path' => $path)),
       );
     }
+
+    $path = libraries_get_path('jquery.ev-emitter');
+    if ($path == '') $path = '/sites/all/libraries/jquery.ev-emitter';
+    if (file_exists($path . '/ev-emitter.js')) {
+      $requirements['field_slideshow_evEmitter_plugin'] = array(
+        'title'     => $t('Event Emitter plugin'),
+        'severity'  => REQUIREMENT_OK,
+        'value'     => $t('Installed'),
+      );
+    }
+    else {
+      $requirements['field_slideshow_evEmitter_plugin'] = array(
+        'title'       => $t('Event Emitter plugin'),
+        'value'       => $t('Not found'),
+        'severity'    => REQUIREMENT_ERROR,
+        'description' => $t('You need to download the !name and move the downloaded js file(s) into the %path folder of your server and rename the folder to jquery.ev-emitter.', array('!name' => l($t('Event Emitter plugin'), 'https://github.com/metafizzy/ev-emitter/archive/master.zip'), '%path' => $path)),
+      );
+    }
+
   }
 
   return $requirements;
