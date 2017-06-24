@@ -139,7 +139,7 @@
                 </div>
                 <div>
                     <span class="email">Email</span>
-                    <a href="mailto:dieta4u@gmail.com">dieta4u@gmail.com</a>
+                    <a href="mailto:info@dieta4u.com.ua>info@dieta4u.com.ua"</a>
                 </div>
             </div>
         </div>
