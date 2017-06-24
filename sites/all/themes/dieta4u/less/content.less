@@ -333,6 +333,11 @@ position: absolute;
   background-image: url("/sites/all/themes/dieta4u/image/icon/cart-count-icon.png");
   background-repeat: no-repeat;
   display: block;
+  text-indent: -99999px;
+}
+
+.ui-widget-content .ui-button-text{
+  display: inline-block;
 }
 
 .ui-icon-triangle-1-n{
@@ -416,6 +421,9 @@ body.front{
     }
     .ui-spinner-button{
       display: block;
+      //margin-top: 9px;
+    }
+    .ui-spinner-button.ui-spinner-up{
       margin-top: 9px;
     }
     .form-item-quantity{
@@ -654,6 +662,9 @@ body.front{
   }
 }
 
+body.admin-menu .commerce-add-to-cart .ui-spinner-button{
+  margin-top: 10px;
+}
 
 body.node-type-product{
   h1{
@@ -783,7 +794,6 @@ body.node-type-product{
   }
   .commerce-add-to-cart{
     .ui-spinner-button{
-      margin-top: 10px;
       display: block;
     }
     .ui-spinner-up{

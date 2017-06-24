@@ -1,4 +1,18 @@
 (function ($) {
+    $(document).ready(function() {
+        setTimeout(function(){
+            var  $spinner = $('.form-item-quantity input, .commerce-line-item-views-form .views-field-edit-quantity input');
+            $spinner.spinner({
+                min: 1,
+                max: 9999,
+                increment: 'fast',
+                stop:function(event,ui){
+                    $(this).change();
+                }
+            });
+        }, 1000);
+    });
+
     Drupal.behaviors.dieta4u = {
         attach: function (context, settings) {
             var self = this;
@@ -6,16 +20,6 @@
             self.fancybox();
             self.filter();
             self.ajaxCart();
-
-             var  $spinner = $('.form-item-quantity input, .commerce-line-item-views-form .views-field-edit-quantity input');
-             $spinner.spinner({
-                    min: 1,
-                    max: 9999,
-                    increment: 'fast',
-                    stop:function(event,ui){
-                        $(this).change();
-                    }
-                });
         },
 
         mainSlider: function () {
