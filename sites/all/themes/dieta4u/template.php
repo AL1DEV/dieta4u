@@ -51,6 +51,27 @@ function dieta4u_preprocess_page(&$variables, $hook) {
 }
 
 function dieta4u_preprocess_html(&$variables) {
+    if (current_path() == drupal_is_front_page()) {
+        $description = array(
+            '#type' => 'html_tag',
+            '#tag' => 'meta',
+            '#attributes' => array(
+                'name' => 'description',
+                'content' => '	Интернет магазин dieta4u.com.ua. Капсулы, таблетки и порошки для похудения, жироудаляющие капсулы, препараты для похудения, капсулы для снижение веса, капсулы для коррекции фигуры, порошок для нормализации обмена веществ, порошок для похудения, жевательные таблетки для похудения, препараты для коррекции веса. Продажа в Украине',
+            )
+        );
+        drupal_add_html_head($description, 'description');
+
+        $keywords = array(
+            '#type' => 'html_tag',
+            '#tag' => 'meta',
+            '#attributes' => array(
+                'name' => 'keywords',
+                'content' => 'капсулы, таблетки и порошки для похудения, жироудаляющие капсулы, препараты для похудения, капсулы для снижение веса, капсулы для коррекции фигуры, порошок для нормализации обмена веществ, порошок для похудения, жевательные таблетки для похудения, препараты для коррекции веса, Украина, продажа, цены',
+            )
+        );
+        drupal_add_html_head($keywords, 'keywords');
+    }
 //    drupal_add_css('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&amp;subset=cyrillic,cyrillic-ext', array('type' => 'external'));
 }
 
