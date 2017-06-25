@@ -57,7 +57,7 @@ function dieta4u_preprocess_html(&$variables) {
             '#tag' => 'meta',
             '#attributes' => array(
                 'name' => 'description',
-                'content' => '	Интернет магазин dieta4u.com.ua. Капсулы, таблетки и порошки для похудения, жироудаляющие капсулы, препараты для похудения, капсулы для снижение веса, капсулы для коррекции фигуры, порошок для нормализации обмена веществ, порошок для похудения, жевательные таблетки для похудения, препараты для коррекции веса. Продажа в Украине',
+                'content' => 'Интернет магазин dieta4u.com.ua. Капсулы, таблетки и порошки для похудения, жироудаляющие капсулы, препараты для похудения, капсулы для снижение веса, капсулы для коррекции фигуры, порошок для нормализации обмена веществ, порошок для похудения, жевательные таблетки для похудения, препараты для коррекции веса. Продажа в Украине',
             )
         );
         drupal_add_html_head($description, 'description');
@@ -71,6 +71,15 @@ function dieta4u_preprocess_html(&$variables) {
             )
         );
         drupal_add_html_head($keywords, 'keywords');
+
+        $element = array(
+            '#tag' => 'meta',
+            '#attributes' => array(
+                "property" => "og:title",
+                "content" => ("Интернет магазин dieta4u.com.ua. Таблетки для похудения"),
+            ),
+        );
+        drupal_add_html_head($element,'og_title');
     }
 //    drupal_add_css('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&amp;subset=cyrillic,cyrillic-ext', array('type' => 'external'));
 }
