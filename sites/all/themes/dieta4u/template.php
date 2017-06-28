@@ -16,6 +16,26 @@ function dieta4u_preprocess_node(&$variables) {
     $variables['theme_hook_suggestions'][] = 'node__' . $variables['type'] . '__slider';
   }
 
+  if(isset($variables['elements']['#node']->type) && $variables['elements']['#node']->type == 'product'){
+      if(isset($variables['field_product'])){
+          $product_id = $variables['field_product'][0]['product_id'];
+          $product = commerce_product_load($product_id);
+          if(isset($product->field_product_image[LANGUAGE_NONE][0])){
+              $img = file_create_url($product->field_product_image[LANGUAGE_NONE][0]['uri']);
+
+              $element = array(
+                  '#tag' => 'meta',
+                  '#attributes' => array(
+                      "property" => "og:image",
+                      "content" => $img,
+                  ),
+              );
+
+              drupal_add_html_head($element,'facebook_share_image');
+          }
+      }
+  }
+
   if ($variables['view_mode'] == 'full') {
     $variables['theme_hook_suggestions'][] = 'node__' . $variables['type'] . '__full';
   }
